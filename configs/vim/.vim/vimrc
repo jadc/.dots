@@ -11,6 +11,9 @@ set backspace=indent,eol,start
 " set relativenumber
 set number
 
+" syntax highlighting
+syntax on
+
 " searching
 set hlsearch
 set incsearch
@@ -42,23 +45,6 @@ set wrap linebreak nolist
 imap ;; <Esc>
 imap ;i ![]()<Esc>i
 
-"- bufferless delete
-nnoremap ddd "_dd
-
 "- displayed line keys
 nnoremap j gj
 nnoremap k gk
-
-"- tex (t) macros
-"-- math mode macro
-nnoremap t4 a$$<Esc>
-"-- textrm macro
-nnoremap t5 i\textrm{}<Esc>i
-"-- superscript macro
-nnoremap t6 la^{}<Esc>i
-"-- subscript macro
-nnoremap t7 la_{}<Esc>i
-
-"- HTML
-"-- doc setup
-imap !<Tab> <!DOCTYPE html><Esc>oi<html><Esc>oi<Tab><head><Esc>oi<Tab><Tab><meta charset="UTF-8"><Esc>oi<Tab><Tab><meta name="viewport" content="width=device-width, initial-scale=1.0"><Esc>oi<Tab><Tab><link rel="stylesheet" href="style.css"><Esc>oi<Tab></head><Esc>oi<Tab><body><Esc>oooi<Tab><Tab><script src="script.js"></script><Esc>oi<Tab></body><Esc>oi</html><Esc>4k$a<Tab><Tab>

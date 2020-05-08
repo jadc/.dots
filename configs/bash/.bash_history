@@ -1,168 +1,3 @@
-git pull
-vim /etc/inputrc
-sudo vim /etc/inputrc
-sudo vim /etc/modprobe.d/blacklist
-reboot
-curl https://jad.red/ramadan/
-vim ~/.config/bspwm/bspwmrc 
-.config/bspwm/bspwmrc 
-sudo pacman -S eclipse
-sudo pacman -S jre8-openjdk jdk8-openjdk
-sudo pacman -S eclipse-java
-yay -S eclipse-platform eclipse-eclipsecolortheme
-cd docs/coding/mc/mods/
-ls
-cd jadsmod/
-ls
-ls -la
-cd eclipse/
-ls
-cd ../
-cd ../
-cd jadsmod/
-git pull
-cd ../
-mv jadsmod/ /media/storage/\$RECYCLE.BIN/
-git clone https://github.com/jadc/jadsmod.git
-cd jadsmod/
-./gradlew setupDecompWorkspace eclipse
-chmod a+x gradlew
-./gradlew setupDecompWorkspace eclipse
-sudo ./gradlew setupDecompWorkspace eclipse
-ls
-sudo vim /etc/fstab
-sudo reboot
-cd docs/coding/mc/mods/jadsmod/
-ls
-./gradlew setupDecompWorkspace eclipse
-cd docs
-cd coding/mc/mods/jadsmod/
-ls
-ls -la
-cd .project 
-vim .project 
-cd Downloads
-ls
-mv video0.mov 'Cap A Lot.mov'
-ls
-mv 'Cap A Lot.mov' ~/music/unreleased/lq/
-ls ~/music/unreleased/lq/
-cd ~
-vim ~/.xinitrc
-vim ~/.xinitrc
-exec discord-canary
-ls /usr/bin
-ls /usr/bin | grep discord
-ls /usr/bin | grep chr
-vim ~/.xinitrc
-vim ~/.x
-vim ~/.xinitrc
-vim ~/.xinitrc
-exit
-vim ~/.config/startup.sh
-chmod +x ~/.config/startup.sh 
-./.config/startup.sh 
-vim ~/.xinitrc
-vim test.sh
-chmod +x test.sh 
-./test.sh 
-vim ~/.config/startup.sh 
-./test.sh 
-ufetch 
-vim ~/.xinitrc
-vim ~/.config/bspwm/bspwmrc 
-xprop
-xprop
-xprop
-xprop
-vim ~/.config/bspwm/bspwmrc 
-man bspc
-xprop
-vim ~/.config/bspwm/bspwmrc 
-proc
-nproc
-neofetch
-sudo pacman -S neofetch
-neofetch
-cd Downloads
-mv 95464266_136712921306702_6702334050545995440_n.mp4 ~/videos/collection/ramadan.mp4
-sudo pacman -S youtube-dl
-yay
-vim /etc/makepkg.conf
-sudo vim /etc/makepkg.conf
-man youtube-dl
-cd Downloads
-ls
-git clone https://github.com/dom64/archive-scripts.git
-cd archive-scripts/
-ls
-cd YouTube/
-ls
-youtube-dl https://www.youtube.com/watch?v=2GAYD5Hb3nM
-ls
-rm Pierre*
-ls
-cd Downloads
-youtube-dl https://www.youtube.com/watch?v=2GAYD5Hb3nM
-ls
-rm Pierre\ Bourne\ -\ Martin\ Lawrence\ _\ Stay\ Humble\ \(Goonin\ version\).
-rm Pie*
-ls
-youtube-dl https://www.youtube.com/watch?v=2GAYD5Hb3nM
-ls
-rm Pie*
-youtube-dl https://www.youtube.com/watch?v=2GAYD5Hb3nM
-ls
-rm Pierre\ Bourne\ -\ Martin\ Lawrence\ _\ Stay\ Humble\ \(Goonin\ version\).mkv 
-vim ~/.config/youtube-dl/
-cd ~/.config/youtube-dl/
-ls
-vim cookies
-ls
-vim config
-youtube-dl https://www.youtube.com/watch?v=2GAYD5Hb3nM -o 'Stay Humble.mp4'
-ls
-mv Stay\ Humble.mp4.mkv Stay\ Humble.mp4
-mv Stay\ Humble.mp4 music/unreleased/remixes/
-cd music/unreleased/remixes/
-ls
-youtube-dl https://www.youtube.com/watch?v=ydaEwlVrGvY
-vim ~/.bash
-vim ~/.bashrc 
-vim /etc/skel/.bashrc 
-gp
-gp bro
-test
-test a
-test a b
-test a b csdfsd fsdf sdf   fsd
-vim ~/.bashrc 
-vim ~/.bashrc 
-vim ~/docs/coding/web/ramadan-static/index.html 
-cd ~/docs/coding/web/ramadan-static
-ls
-gp updated time
-cd ~/docs/coding/web/ramadan-static
-gp updated time
-ls .config/
-cd .config/
-mkdir youtube-dl
-cd youtube-dl/
-touch config
-vim config 
-cp config config-archive
-vim config
-vim config
-vim ~/.bashrc 
-vim ~/.bashrc 
-history | cd
-history | grep cd
-cd ~/docs/coding/web/ramadan-static/
-ls
-gp
-git push -u origin master
-vim ~/.bashrc 
-ls
 cd ~
 ls -la
 rm test.sh 
@@ -498,3 +333,261 @@ cd .config/
 ls -la
 cd ~
 ls -la
+cd ~
+ls -la
+cd .dots/
+ls
+ls -la
+git remote add origin https://github.com/jadc/.dots
+git add .
+git commit -m "day 1 :)"
+git push -u origin master
+cd configs/bspwm/
+vim .config/bspwm/bspwmrc 
+ls ../
+cd ../
+cd ../
+cd scripts/setup/
+ls 
+vim init-autostart.sh 
+cd x
+cd ../
+cd ../
+cd configs/
+vim x/.xinitrc 
+cd ../
+git add .
+git commit -m "dir typo"
+git push -u origin master
+cd configs/youtube-dl/.config/youtube-dl/
+ls
+mv cookies ~/.yt-cookies
+ls
+vim config
+cd ~/.dots/
+git add .
+git commit -m "removed cookies"
+git push -u origin master
+git push -u origin master
+git filter-branch
+git add .
+git commit -m "a"
+git add .
+git commit -m "a"
+git push -u origin master
+ls -la
+rm -rf .git
+git init
+git remote add origin https://github.com/jadc/.dots.git
+git add .
+git commit -m "first commit again :)"
+git push -u origin master
+cd ~
+git config --global credential.helper store
+sudo pacman -S audacity
+sudo poweroff
+reboot
+sudo pacman -S libreoffice-fresh
+cd ../
+cd docs/archive/classes/notes/bio/
+ls
+libreoffice 2020-05-08\ Evolution\ Notes.doc 
+cd ../
+ls
+vim ~/.dots/configs/bspwm/.config/bspwm/bspwmrc 
+vim ~/.dots/configs/vim/.vim/vimrc 
+cd ../docs/archive/classes/notes/bio/
+ls
+zathura 2020-04-27\ Excretion\ Notes.pdf 
+zathura '2020-04-27\ Excretion\ Notes.pdf'
+mv ~/videos/recorded/2020-05-08\ 09-09-02.mp4 '2020-05-08 Excretion End'
+ls
+mv 2020-05-08\ Excretion\ End ../../recordings/bio/2020-05-08\ Excretion\ End.mp4
+cd ../
+cd videos/recorded/
+ls
+ranger
+cd /media/storage/
+cd ../
+mkdir windows
+sudo mkdir windows
+ls
+lsblk
+ntfs-3g /dev/sda6 /media/windows/
+sudo ntfs-3g /dev/sda6 /media/windows/
+cd windows/
+ls
+cd Windows/
+cd Fonts/
+ls
+cd ../
+mkdir /usr/share/fonts/WindowsFonts
+sudo mkdir /usr/share/fonts/WindowsFonts
+ls
+cp Fonts/* /usr/share/fonts/WindowsFonts/
+sudo cp Fonts/* /usr/share/fonts/WindowsFonts/
+chmod 644 /usr/share/fonts/WindowsFonts/*
+sudo chmod 644 /usr/share/fonts/WindowsFonts/*
+fc-cache -f
+ls /usr/share/fonts/
+killall obs
+cd ~/videos/recorded/
+ls
+ranger
+vim ~/.dots/configs/vim/.vim/vimrc 
+ranger
+w3m
+ranger
+ranger
+ranger
+ueberzug
+py ueberzug
+sudo pacman -S ueberzug
+pacman -Qi ranger
+pacman -Qi ranger | less
+sudo pacman -S w2m
+sudo pacman -S w3m
+yay
+ranger
+w3mimgpreview
+sudo pacman -S w3mimgpreview
+pacman -Rcns w3m
+sudo pacman -Rcns w3m
+yay -S ueberzug
+pip
+sudo pacman -S python
+pip
+sudo pacman -S python-pip
+pip install ueberzug
+ls -la
+pip uninstall ueberzug
+pip3
+sudo pip3 install ueberzug
+sudo pip3 uninstall ueberzug
+sudo pacman -Rcns ranger
+yay ranger
+yay -S ranger
+yay -S ranger-git
+yay -S ueberzug
+yay -S python-ueberzug
+sudo pacman -Rcns python python-pip
+yay -S python-ueberzug
+sudo mv /usr/lib/python3.8/ /usr/lib/python3.8BACKUP/
+yay -S python-ueberzu
+ranger
+yay -Rcns ranger-git
+yay -Rcns ranger-git
+yay -S ranger-git
+ranger 
+cd ~/.dots/configs/
+ls
+stow -t ~ ranger/
+cd ~/Downloads
+ranger
+yay -Rcns ranger-git python-ueberget
+yay -Rcns ranger-git python-ueberzug
+sudo pacman -S python python-pip
+history | grep python
+ls /usr/lib
+ls /usr/lib/ | grep python
+ranger
+sudo pacman -S ranger
+sudo pacman -S transmission-cli
+cd ~/.dots/configs/
+stow -t ~ ranger/
+vim ~/.dots/configs/ranger/.config/ranger/rc.conf 
+ranger
+cd ~
+cd ../
+cd .config/ranger/
+ls
+ls -la
+ranger --copy-config=all
+ls -la
+ls commands.py 
+cat commands.py
+ls -la
+cat rifle.conf 
+ls
+vim rc.conf 
+cp rc.conf ~/.dots/configs/ranger/.config/ranger/
+mkdir -p ~/.dots/configs/ranger/.config/ranger
+cp rc.conf ~/.dots/configs/ranger/.config/ranger/
+cd ~/.dots/
+ls
+cd configs/
+ls
+stow -t ~ ranger
+rm ~/.config/ranger/rc.conf 
+stow -t ~ ranger
+ls -la ~/.config/ranger/
+cd ranger/
+vim .config/ranger/rc.conf 
+vim .config/ranger/rc.conf 
+nvidia-smi
+nvidia-smi
+nvidia-smi
+nvidia-smi
+nvidia-smi
+nvidia-smi
+nvidia-smi
+nvidia-smi
+nvidia-smi
+nvidia-smi
+nvidia-smi
+nvidia-smi
+nvidia-smi
+nvidia-smi
+nvidia-smi
+nvidia-smi
+nvidia-smi
+nvidia-smi
+nvidia-smi
+nvidia-smi
+nvidia-smi
+nvidia-smi
+nvidia-smi
+nvidia-smi
+nvidia-smi
+nvidia-smi
+nvidia-smi
+nvidia-smi
+nvidia-smi
+nvidia-smi
+nvidia-smi
+nvidia-smi
+nvidia-smi
+nvidia-smi
+nvidia-smi
+nvidia-smi
+nvidia-smi
+nvidia-smi
+nvidia-smi
+nvidia-smi
+nvidia-smi
+nvidia-smi
+nvidia-smi
+nvidia-smi
+nvidia-smi
+nvidia-smi
+nvidia-smi
+htop
+sudo pacman -S mpv
+sudo pacmam -Qi mpv
+sudo pacman -Qi mpv
+mkdir -p ~/.dots/configs/mpv/.config/mpv
+cp -r /usr/share/doc/mpv ~/.dots/configs/mpv/.config/
+ranger
+cd ~/.dots/configs/
+stow -t ~ mpv/
+vim mpv/.config/mpv/mpv.conf 
+mpv ~/videos/media/movies/Avatar.ECE.2009.1080p.BrRip.x264.bitloks.YIFY.mp4 
+mpv ~/videos/media/shows/Spongebob/Season\ 1/\[E01-E03\]\ Help\ Wanted\,\ Reef\ Blower\,\ Tea\ at\ the\ Treedome.mkv 
+mpv ~/videos/media/shows/Spongebob/Season\ 1/\[E01-E03\]\ Help\ Wanted\,\ Reef\ Blower\,\ Tea\ at\ the\ Treedome.mkv 
+ranger ~
+vim ~/.dots/configs/bspwm/.config/bspwm/bspwmrc 
+ranger ~/videos
+~/.dots/configs/mpv/.config/mpv/
+cd ~/.dots/configs/mpv/.config/mpv/
+ls
+vim mpv.conf 

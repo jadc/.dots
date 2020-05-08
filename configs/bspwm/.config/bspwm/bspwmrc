@@ -4,8 +4,8 @@ sxhkd &
 $HOME/.dots/scripts/setup/init-xrandr.sh
 $HOME/.dots/scripts/setup/init-polybar.sh
 
-bspc monitor DP-4 -d I II III
-bspc monitor HDMI-0 -d IV V VI
+bspc monitor DP-4 -d I II III IV V VI
+bspc monitor HDMI-0 -d VII VIII IX
 
 bspc config border_width         1
 bspc config window_gap           0
@@ -23,5 +23,6 @@ bspc config gapless_monocle      true
 
 # Program Rules
 bspc rule -a Chromium desktop='^1'
-bspc rule -a discord desktop='^4' state=fullscreen focus=off
+bspc rule -a discord desktop='^7' state=fullscreen focus=off
 bspc rule -a obs state=floating
+bspc rule -a mpv desktop='^2' state=fullscreen
