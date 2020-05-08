@@ -127,3 +127,13 @@ super + {Left,Down,Up,Right}
 # screenshot w/ imagemagick import
 Print
 	import png:- | xclip -selection clipboard -t image/png	
+
+# volume controls
+XF86AudioLowerVolume
+	amixer sset Master 2%-
+
+XF86AudioRaiseVolume
+	amixer sset Master 2%+
+
+XF86AudioMute
+    amixer sset Master toggle
