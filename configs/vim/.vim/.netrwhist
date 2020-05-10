@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/home/jad/.dots/configs/bash'
+let g:netrw_dirhist_3='/home/jad/.config/cmus/playlists'
+let g:netrw_dirhist_2='/home/jad/.config/cmus'
+let g:netrw_dirhist_1='/home/jad/.config'

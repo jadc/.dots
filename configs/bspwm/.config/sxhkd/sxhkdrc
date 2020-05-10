@@ -130,10 +130,10 @@ Print
 
 # volume controls
 XF86AudioLowerVolume
-	amixer sset Master 2%-
+	amixer sset Master 2%-; amixer sset Master on
 
 XF86AudioRaiseVolume
-	amixer sset Master 2%+
+	amixer sset Master 2%+; amixer sset Master on
 
 XF86AudioMute
     amixer sset Master toggle
