@@ -37,7 +37,7 @@
 *.color15:      #ffffff
 
 ! Appearance
-URxvt.font: xft:Fira Code:size=14
+URxvt.font: xft:Fira Code:pixelsize=20:antialias=true
 URxvt.letterSpace: -1
 URxvt.lineSpace: 0
 URxvt.geometry: 92x24

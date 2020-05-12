@@ -6,11 +6,6 @@
 [[ $- != *i* ]] && return
 
 #
-# Env Vars
-#
-export TZ='Canada/Mountain'
-
-#
 # Aliases
 #
 alias ls='ls --color=auto -a'
@@ -27,14 +22,14 @@ export LS_COLORS="$LS_COLORS:ow=1;34:tw=1;34:"
 
 # Prefix
 #PS1='[\u@\h \W]\$ '
-PS1='\e[0m\e[30m(\e[90m\W\e[30m)\e[34m$\e[0m '
+PS1='\[\e[0m\e[30m\](\[\e[90m\]\W\[\e[30m\])\[\e[34m\]$\[\e[0m\] '
 
 #
 # Defaults
 #
 
-# cd to downloads
-cd $HOME/Downloads/
+# cd
+cd $HOME
 
 # Showing off
 ufetch

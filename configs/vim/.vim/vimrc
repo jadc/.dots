@@ -41,10 +41,13 @@ filetype indent on
 set wrap linebreak nolist
 
 " mapping
-"- semi colon
-imap ;; <Esc>
-imap ;i ![]()<Esc>i
+"- markdown exclusive
+autocmd FileType markdown inoremap ;i ![](images/unit<++>)<Esc>0/]<Enter>i
+autocmd FileType markdown command Notes r!cat ~/.dots/configs/vim/.vim/templates/template-notes.md
 
 "- displayed line keys
 nnoremap j gj
 nnoremap k gk
+
+"- luke smith
+inoremap <Space><Space> <Esc>/<++><Enter>"_c4l
