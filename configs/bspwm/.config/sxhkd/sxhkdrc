@@ -4,7 +4,7 @@
 
 # terminal emulator
 super + Return
-	urxvt
+	$TERMINAL
 
 # program launcher
 super + @space
@@ -126,14 +126,13 @@ super + {Left,Down,Up,Right}
 
 # screenshot w/ imagemagick import
 Print
-	import png:- | xclip -selection clipboard -t image/png	
+	import png:- | xclip -selection clipboard -t image/png
 
 # volume controls
-XF86AudioLowerVolume
-	amixer sset Master 2%-; amixer sset Master on
-
 XF86AudioRaiseVolume
-	amixer sset Master 2%+; amixer sset Master on
+    $SCRIPTS/volume.sh 2%+
+XF86AudioLowerVolume 
+    $SCRIPTS/volume.sh 2%-
 
 XF86AudioMute
     amixer sset Master toggle
@@ -142,9 +141,13 @@ XF86AudioMute
 super + {b,n}
     bspc desktop -f {prev,next}
 
-# shutdown prompt
+# time display
 Pause
-    exec $SCRIPTS/dmenu/state.sh
+    dunstify -r 2900 "$(date '+%I:%M %P')"
 
-Scroll_Lock
-    $BROWSER
+super + Pause
+    dunstify -r 2900 "$(date '+%B %d, Q%q')"
+
+# display off
+Num_Lock
+    notify-send "Going to sleep..." && sleep 1 && xset dpms force off

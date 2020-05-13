@@ -4,6 +4,7 @@
 
 # Environmental Variables
 export PATH=$HOME/.shortcuts:$PATH
+export SCRIPTS=$HOME/.dots/scripts
 export TZ='Canada/Mountain'
 export WM='bspwm'
 export EDITOR='vim'
