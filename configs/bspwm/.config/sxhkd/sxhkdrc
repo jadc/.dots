@@ -59,8 +59,8 @@ super + {_,shift + }{h,j,k,l}
 	bspc node -{f,s} {west,south,north,east}
 
 # focus the node for the given path jump
-super + {p,b,comma,period}
-	bspc node -f @{parent,brother,first,second}
+#super + {p,b,comma,period}
+#	bspc node -f @{parent,brother,first,second}
 
 # focus the next/previous node in the current desktop
 super + {_,shift + }c
@@ -137,3 +137,14 @@ XF86AudioRaiseVolume
 
 XF86AudioMute
     amixer sset Master toggle
+
+# desktop shift
+super + {b,n}
+    bspc desktop -f {prev,next}
+
+# shutdown prompt
+Pause
+    exec $SCRIPTS/dmenu/state.sh
+
+Scroll_Lock
+    $BROWSER

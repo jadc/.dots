@@ -8,28 +8,28 @@
 #
 # Aliases
 #
-alias ls='ls --color=auto -a'
-alias gp='git add . && git commit -m "$(date)" && git push -u origin master'
-alias gpm='git add . && git commit -m "$1" && git push -u origin master'
-alias ranger='. ranger'
+[ -f ~/.aliases ] && source ~/.aliases
 
 #
 # Configuration
 #
 
-# Disable permission colors
+# Disable permission highlighting in ls
 export LS_COLORS="$LS_COLORS:ow=1;34:tw=1;34:"
 
 # Prefix
-#PS1='[\u@\h \W]\$ '
 PS1='\[\e[0m\e[30m\](\[\e[90m\]\W\[\e[30m\])\[\e[34m\]$\[\e[0m\] '
+
+# cd w/o cd
+shopt -s autocd
 
 #
 # Defaults
 #
 
-# cd
-cd $HOME
+# vi mode
+set -o vi
+bind -m vi-insert "\C-l":clear-screen
 
 # Showing off
 ufetch
