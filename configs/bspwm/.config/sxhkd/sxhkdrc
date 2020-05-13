@@ -135,7 +135,7 @@ XF86AudioLowerVolume
     $SCRIPTS/volume.sh 2%-
 
 XF86AudioMute
-    amixer sset Master toggle
+    amixer sset Master toggle; $SCRIPTS/notify.sh "~~%"
 
 # desktop shift
 super + {b,n}
@@ -143,10 +143,10 @@ super + {b,n}
 
 # time display
 Pause
-    dunstify -r 2900 "$(date '+%I:%M %P')"
+    $SCRIPTS/notify.sh "$(date '+%I:%M %P')"
 
 super + Pause
-    dunstify -r 2900 "$(date '+%B %d, Q%q')"
+    $SCRIPTS/notify.sh "$(date '+%B %d, Q%q')"
 
 # display off
 Num_Lock
