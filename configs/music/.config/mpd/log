@@ -3502,3 +3502,35 @@ May 13 13:17 : client: [21] opened from 127.0.0.1:54666
 May 13 13:17 : client: [21] closed
 May 13 13:17 : client: [22] opened from 127.0.0.1:54668
 May 13 13:18 : client: [22] closed
+May 13 18:29 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 13 18:29 : client: [0] opened from 127.0.0.1:55962
+May 13 18:30 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 13 18:30 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 13 18:30 : player: played "self-made/mad jad.mp3"
+May 13 18:30 : client: [0] closed
+May 13 18:30 : client: [1] opened from 127.0.0.1:55964
+May 13 18:34 : player: played "released/Playboi Carti - Playboi Carti/01. Location.flac"
+May 13 18:37 : player: played "released/Playboi Carti - Playboi Carti/02. Magnolia.flac"
+May 13 18:40 : player: played "released/Playboi Carti - Playboi Carti/03. Lookin (feat. Lil Uzi Vert).flac"
+May 13 18:44 : player: played "released/Playboi Carti - Playboi Carti/04. Wokeuplikethis (feat. Lil Uzi Vert).flac"
+May 13 18:46 : player: played "released/Playboi Carti - Playboi Carti/05. Let It Go.flac"
+May 13 18:50 : player: played "released/Playboi Carti - Playboi Carti/06. Half & Half.flac"
+May 13 18:52 : player: played "released/Playboi Carti - Playboi Carti/07. New Choppa (feat. A$AP Rocky).flac"
+May 13 18:55 : player: played "released/Playboi Carti - Playboi Carti/08. Other Shit.flac"
+May 13 18:58 : player: played "released/Playboi Carti - Playboi Carti/09. No. 9.flac"
+May 13 19:02 : player: played "released/Playboi Carti - Playboi Carti/10. Dothatshit!.flac"
+May 13 19:04 : player: played "released/Playboi Carti - Playboi Carti/11. Lame Niggaz.flac"
+May 13 19:07 : player: played "released/Playboi Carti - Playboi Carti/12. Yah Mean.flac"
+May 13 19:11 : player: played "released/Playboi Carti - Playboi Carti/13. Flex (feat. Leven Kali).flac"
+May 13 19:16 : player: played "released/Playboi Carti - Playboi Carti/14. Kelly K.flac"
+May 13 19:18 : player: played "released/Playboi Carti - Playboi Carti/15. Had 2.flac"
+May 13 20:26 : client: [2] opened from 127.0.0.1:58736
+May 13 20:26 : client: [2] closed
+May 13 20:28 : client: [3] opened from 127.0.0.1:58818
+May 13 20:29 : player: played "self-made/Pi'erre Bourne - Jojo.wav"
+May 13 20:30 : update: added unreleased/lq/Dolly (ft. Lil Tecca).mov
+May 13 20:31 : client: [3] closed
+May 13 20:31 : client: [4] opened from 127.0.0.1:58842
+May 13 20:33 : player: played "self-made/Pi'erre Bourne - Jojo.wav"
+May 13 20:34 : player: played "self-made/Pi'erre Bourne - Jojo.wav"
+May 13 20:34 : client: [4] closed
