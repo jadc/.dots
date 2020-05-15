@@ -3534,3 +3534,194 @@ May 13 20:31 : client: [4] opened from 127.0.0.1:58842
 May 13 20:33 : player: played "self-made/Pi'erre Bourne - Jojo.wav"
 May 13 20:34 : player: played "self-made/Pi'erre Bourne - Jojo.wav"
 May 13 20:34 : client: [4] closed
+May 13 20:36 : player: played "self-made/Pi'erre Bourne - Jojo.wav"
+May 13 20:36 : client: [1] closed
+May 13 20:36 : player: played "self-made/Pi'erre Bourne - Jojo.wav"
+May 13 23:24 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 13 23:24 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 13 23:24 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 13 23:24 : client: [0] opened from 127.0.0.1:60066
+May 13 23:27 : player: played "self-made/Pi'erre Bourne - Jojo.wav"
+May 13 23:29 : player: played "self-made/Pi'erre Bourne - Jojo.wav"
+May 13 23:32 : player: played "self-made/Pi'erre Bourne - Jojo.wav"
+May 13 23:35 : player: played "self-made/Pi'erre Bourne - Jojo.wav"
+May 13 23:37 : player: played "self-made/Pi'erre Bourne - Jojo.wav"
+May 13 23:40 : player: played "self-made/Pi'erre Bourne - Jojo.wav"
+May 13 23:42 : player: played "self-made/Pi'erre Bourne - Jojo.wav"
+May 13 23:45 : client: [0] closed
+May 13 23:45 : client: [1] opened from 127.0.0.1:60108
+May 13 23:45 : client: [1] closed
+May 13 23:51 : player: played "self-made/Pi'erre Bourne - Jojo.wav"
+May 13 23:51 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 13 23:51 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 13 23:51 : client: [0] opened from 127.0.0.1:60162
+May 13 23:51 : client: [0] closed
+May 13 23:52 : player: played "self-made/Pi'erre Bourne - Jojo.wav"
+May 13 23:52 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 13 23:52 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 13 23:52 : client: [0] opened from 127.0.0.1:60166
+May 13 23:52 : client: [0] closed
+May 13 23:52 : player: played "self-made/Pi'erre Bourne - Jojo.wav"
+May 13 23:53 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 13 23:53 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 13 23:53 : client: [0] opened from 127.0.0.1:60170
+May 13 23:53 : client: [0] closed
+May 13 23:53 : client: [1] opened from 127.0.0.1:60172
+May 13 23:53 : client: [1] closed
+May 13 23:54 : client: [2] opened from 127.0.0.1:60174
+May 13 23:54 : client: [2] closed
+May 13 23:55 : client: [3] opened from 127.0.0.1:60188
+May 13 23:55 : client: [3] closed
+May 13 23:55 : client: [4] opened from 127.0.0.1:60190
+May 13 23:55 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 13 23:55 : client: [4] closed
+May 13 23:55 : client: [5] opened from 127.0.0.1:60192
+May 13 23:55 : client: [5] closed
+May 14 02:12 : player: played "self-made/Pi'erre Bourne - Jojo.wav"
+May 14 15:33 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 14 15:33 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 14 15:33 : client: [0] opened from 127.0.0.1:51488
+May 14 15:34 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 14 15:36 : player: played "self-made/Pi'erre Bourne - Jojo.wav"
+May 14 15:37 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+May 14 15:39 : player: played "released/Pi'Erre Bourne - Hacked My Instagram.mp3"
+May 14 15:41 : player: played "released/Pi'Erre Bourne - Hacked My Instagram.mp3"
+May 14 15:43 : player: played "released/Pi'Erre Bourne - Hacked My Instagram.mp3"
+May 14 15:44 : client: [0] closed
+May 14 15:44 : player: played "released/Pi'Erre Bourne - Hacked My Instagram.mp3"
+May 14 15:44 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 14 15:44 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 14 15:44 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 14 15:44 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+May 14 15:44 : client: [0] opened from 127.0.0.1:51614
+May 14 15:45 : player: played "released/Pi'Erre Bourne - Hacked My Instagram.mp3"
+May 14 15:45 : update: added unreleased/leaks/og/All Bad.mp3
+May 14 15:45 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+May 14 15:48 : update: added unreleased/leaks/cdq/Range Rover Sport Truck.mp3
+May 14 15:51 : client: [0] closed
+May 14 15:51 : client: [1] opened from 127.0.0.1:51676
+May 14 15:57 : client: [2] opened from 127.0.0.1:51702
+May 14 15:57 : client: [2] closed
+May 14 15:57 : client: [1] closed
+May 14 16:07 : client: [3] opened from 127.0.0.1:51948
+May 14 16:08 : update: updating unreleased/leaks/cdq/150K.m4a
+May 14 16:08 : update: updating unreleased/leaks/cdq/1600.m4a
+May 14 16:08 : update: updating unreleased/leaks/cdq/6 Minute Freestyle.mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/A Lot On My Mind.m4a
+May 14 16:08 : update: updating unreleased/leaks/cdq/After You.mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/Alien.mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/Alma Mater.mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/Aquafina.mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/Arm & Leg.m4a
+May 14 16:08 : update: updating unreleased/leaks/cdq/Autograph.mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/Back On The Act.mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/Back Up.mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/Backroom.mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/Bad Boy.mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/Bando.mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/Bands Up.mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/Big Bank.m4a
+May 14 16:08 : update: updating unreleased/leaks/cdq/Houdini.m4a
+May 14 16:08 : update: updating unreleased/leaks/cdq/Hurricane (ft. Ty Dolla $ign, Young Thug).mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/Hurricane.mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/In My Car.mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/Jet Blown.mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/Keep Being Me.mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/Range Rover Sport Truck.mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/Did It Again.mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/Die Like This.mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/Disconnected.mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/Dog Food.mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/Dolly.m4a
+May 14 16:08 : update: updating unreleased/leaks/cdq/Don't Worry.mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/Drip.m4a
+May 14 16:08 : update: updating unreleased/leaks/cdq/Dropped Out.mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/Emotional.mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/Exotic.mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/Fake From The Jump.mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/FWM.mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/Get The Guap.mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/Go Up.mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/Goku.mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/Hacked My Instagram (Remix).mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/Harden.mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/He Ain't Got It.mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/Headshot.mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/Hellcat.mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/Hoe Tendencies.mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/Blade.mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/Blue Hunnids.mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/Break The Bank.m4a
+May 14 16:08 : update: updating unreleased/leaks/cdq/Brokeboy.mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/Buffy.mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/Bustdown.m4a
+May 14 16:08 : update: updating unreleased/leaks/cdq/Butterfly Doors.mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/Cancun.mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/Cash Shit.m4a
+May 14 16:08 : update: updating unreleased/leaks/cdq/Chase.mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/Check It Out.mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/Check Please.m4a
+May 14 16:08 : update: updating unreleased/leaks/cdq/Check.mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/Choppa Go.mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/Choppa.mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/Clouds.mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/Big Watch.mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/DaVille.mp3
+May 14 16:08 : update: updating unreleased/leaks/cdq/Hoes Fo Sho.m4a
+May 14 16:08 : update: updating unreleased/leaks/og/All Bad.mp3
+May 14 16:09 : client: [3] closed
+May 14 16:09 : client: [4] opened from 127.0.0.1:51966
+May 14 16:09 : client: [4] closed
+May 14 16:09 : client: [5] opened from 127.0.0.1:51968
+May 14 16:09 : update: updating unreleased/leaks/og/All Bad.mp3
+May 14 16:09 : client: [5] closed
+May 14 16:09 : player: played "unreleased/leaks/og/All Bad.mp3"
+May 14 16:09 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 14 16:09 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 14 16:09 : client: [0] opened from 127.0.0.1:51972
+May 14 16:09 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 14 16:09 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+May 14 16:09 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+May 14 16:10 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+May 14 16:11 : client: [0] closed
+May 14 16:11 : client: [1] opened from 127.0.0.1:51974
+May 14 16:12 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+May 14 16:14 : player: played "unreleased/leaks/cdq/Range Rover Sport Truck.mp3"
+May 14 16:15 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+May 14 16:15 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+May 14 16:16 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+May 14 16:16 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+May 14 16:19 : player: played "unreleased/leaks/cdq/Range Rover Sport Truck.mp3"
+May 14 16:22 : player: played "unreleased/leaks/cdq/Range Rover Sport Truck.mp3"
+May 14 16:25 : player: played "unreleased/leaks/cdq/Range Rover Sport Truck.mp3"
+May 14 16:28 : player: played "unreleased/leaks/cdq/Range Rover Sport Truck.mp3"
+May 14 16:30 : player: played "unreleased/leaks/cdq/Range Rover Sport Truck.mp3"
+May 14 16:33 : player: played "unreleased/leaks/cdq/Range Rover Sport Truck.mp3"
+May 14 16:39 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+May 14 16:42 : player: played "unreleased/leaks/cdq/Range Rover Sport Truck.mp3"
+May 14 16:44 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+May 14 16:45 : player: played "unreleased/leaks/cdq/Range Rover Sport Truck.mp3"
+May 14 16:47 : player: played "unreleased/leaks/cdq/Range Rover Sport Truck.mp3"
+May 14 16:50 : player: played "unreleased/leaks/cdq/Range Rover Sport Truck.mp3"
+May 14 16:53 : player: played "unreleased/leaks/cdq/Range Rover Sport Truck.mp3"
+May 14 16:55 : client: [2] opened from 127.0.0.1:52330
+May 14 16:55 : client: [2] closed
+May 14 16:55 : client: [1] closed
+May 14 16:55 : player: played "unreleased/leaks/cdq/Range Rover Sport Truck.mp3"
+May 14 16:55 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 14 16:55 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 14 16:55 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 14 16:55 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+May 14 16:55 : client: [0] opened from 127.0.0.1:52346
+May 14 16:56 : player: played "unreleased/leaks/cdq/Range Rover Sport Truck.mp3"
+May 14 16:59 : player: played "unreleased/leaks/cdq/Range Rover Sport Truck.mp3"
+May 14 17:02 : player: played "unreleased/leaks/cdq/Range Rover Sport Truck.mp3"
+May 14 17:03 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+May 14 17:06 : player: played "unreleased/leaks/cdq/Range Rover Sport Truck.mp3"
+May 14 17:09 : player: played "unreleased/leaks/cdq/Range Rover Sport Truck.mp3"
+May 14 17:11 : player: played "unreleased/leaks/cdq/Range Rover Sport Truck.mp3"
+May 14 17:16 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+May 14 17:18 : player: played "unreleased/leaks/cdq/Range Rover Sport Truck.mp3"
+May 14 17:21 : player: played "unreleased/leaks/cdq/Range Rover Sport Truck.mp3"
+May 14 17:21 : client: [0] closed
+May 14 17:21 : player: played "unreleased/leaks/cdq/Range Rover Sport Truck.mp3"

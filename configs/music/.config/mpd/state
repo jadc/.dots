@@ -2,8 +2,8 @@ sw_volume: 100
 audio_device_state:1:mpd alsamixer-output
 audio_device_state:1:toggle_visualizer
 state: play
-current: 0
-time: 4.329000
+current: 21
+time: 14.149000
 random: 0
 repeat: 1
 single: 1
@@ -13,4 +13,30 @@ mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
 0:self-made/Pi'erre Bourne - Jojo.wav
+1:released/Pi'Erre Bourne - The Life Of Pi'erre 4/01 - Poof.mp3
+2:released/Pi'Erre Bourne - The Life Of Pi'erre 4/02 - Try Again.mp3
+3:released/Pi'Erre Bourne - The Life Of Pi'erre 4/03 - Feds.mp3
+4:released/Pi'Erre Bourne - The Life Of Pi'erre 4/04 - Be Mine.mp3
+5:released/Pi'Erre Bourne - The Life Of Pi'erre 4/05 - Ballad.mp3
+6:released/Pi'Erre Bourne - The Life Of Pi'erre 4/06 - Routine.mp3
+7:released/Pi'Erre Bourne - The Life Of Pi'erre 4/07 - Lovers.mp3
+8:released/Pi'Erre Bourne - The Life Of Pi'erre 4/08 - How High.mp3
+9:released/Pi'Erre Bourne - The Life Of Pi'erre 4/09 - Romeo Must Die.mp3
+10:released/Pi'Erre Bourne - The Life Of Pi'erre 4/10 - Racer.mp3
+11:released/Pi'Erre Bourne - The Life Of Pi'erre 4/11 - Stereotypes.mp3
+12:released/Pi'Erre Bourne - The Life Of Pi'erre 4/12 - Doublemint.mp3
+13:released/Pi'Erre Bourne - The Life Of Pi'erre 4/13 - Horoscopes.mp3
+14:released/Pi'Erre Bourne - The Life Of Pi'erre 4/14 - Juice.mp3
+15:released/Pi'Erre Bourne - The Life Of Pi'erre 4/15 - Guillotine.mp3
+16:released/Pi'Erre Bourne - The Life Of Pi'erre 4/16 - Speed Dial.mp3
+17:released/Pi'Erre Bourne - Hacked My Instagram.mp3
+18:released/Pi'Erre Bourne - Honeyberry.mp3
+19:released/Pi'Erre Bourne - Marie Curie.mp3
+20:unreleased/leaks/og/All Bad.mp3
+21:unreleased/leaks/cdq/Range Rover Sport Truck.mp3
+22:unreleased/leaks/cdq/Pitshop.mp3
+23:unreleased/leaks/cdq/Racks.mp3
+24:unreleased/leaks/cdq/Red On Red.mp3
+25:unreleased/leaks/cdq/RIP Chico.mp3
+26:unreleased/leaks/cdq/Woah.mp3
 playlist_end

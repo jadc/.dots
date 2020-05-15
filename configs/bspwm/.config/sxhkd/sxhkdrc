@@ -82,8 +82,7 @@ super + {o,i}
 
 # focus or send to the given desktop
 super + {_,shift + }{1-9,0}
-	bspc {desktop -f,node -d} '^{1-9,10}'; \
-    $SCRIPTS/notify.sh "$(bspc query -D -d --names)"
+	bspc {desktop -f,node -d} '^{1-9,10}'
 
 #
 # preselect
@@ -140,11 +139,11 @@ XF86AudioMute
 
 # time display
 Pause
-    $SCRIPTS/notify.sh "$(date '+%I:%M %P')"
+    $SCRIPTS/notify-time.sh
 
 super + Pause
-    $SCRIPTS/notify.sh "$(date '+%a, %b %d')"
+    $SCRIPTS/notify-time.sh date
 
 # display off
 Num_Lock
-    notify-send "Going to sleep..." && sleep 1 && xset dpms force off
+    $SCRIPTS/notify.sh "Going to sleep..." && sleep 1 && xset dpms force off

@@ -23,6 +23,10 @@ PS1='\[\e[0m\e[30m\](\[\e[90m\]\W\[\e[30m\])\[\e[34m\]$\[\e[0m\] '
 # cd w/o cd
 shopt -s autocd
 
+# unlimited history
+HISTSIZE=-1
+HISTFILESIZE=-1
+
 #
 # Defaults
 #
