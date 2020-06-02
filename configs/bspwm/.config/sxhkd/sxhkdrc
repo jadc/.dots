@@ -124,9 +124,14 @@ super + {Left,Down,Up,Right}
 # custom
 #
 
-# screenshot w/ imagemagick import
+# screenshot
 Print
-	import png:- | xclip -selection clipboard -t image/png
+	maim -s | xclip -selection clipboard -t image/png
+
+# color picker to clipboard
+super + Print
+    colorpicker --short --one-shot --preview | xclip -selection clipboard && \
+    $SCRIPTS/notify.sh "Copied colour to clipboard"
 
 # volume controls
 XF86AudioRaiseVolume
@@ -135,15 +140,27 @@ XF86AudioLowerVolume
     $SCRIPTS/volume.sh 2%-
 
 XF86AudioMute
-    amixer sset Master toggle; $SCRIPTS/notify.sh "~~%"
+    amixer sset Master toggle; \
+    $SCRIPTS/notify.sh "~~%"
 
 # time display
 Pause
-    $SCRIPTS/notify-time.sh
+    $SCRIPTS/notify.sh "$(date '+%-I:%M %P')"
 
 super + Pause
-    $SCRIPTS/notify-time.sh date
+    $SCRIPTS/notify.sh "$(date +'%A, %b %-d')"
 
 # display off
 Num_Lock
-    $SCRIPTS/notify.sh "Going to sleep..." && sleep 1 && xset dpms force off
+    $SCRIPTS/notify.sh "Zzz..." && \
+    sleep 1 && \
+    xset dpms force off
+
+# restart menu
+# super + End
+#     $SCRIPTS/dmenu/state.sh
+
+# toggle equalizer
+super + shift + e
+    pulseaudio-equalizer toggle > /dev/null; \
+    $SCRIPTS/notify.sh "$(pulseaudio-equalizer status | sed -n 3p)"

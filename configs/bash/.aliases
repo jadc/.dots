@@ -1,3 +1,11 @@
 alias ls='ls --color=auto -a'
 alias gp='git add . && git commit -m "$(date)" && git push -u origin master'
 alias ranger='. ranger'
+alias chrome='chromium --profile-directory="Default"'
+alias school='chromium --profile-directory="Profile 1"'
+alias windows='sudo grub-reboot "$(grep -i windows /boot/grub/grub.cfg | cut -d -f2)" && sudo reboot'
+alias todo='$EDITOR $HOME/docs/archive/text/todo'
+
+alias sm64='cd $HOME/docs/coding/c/sm64pc/build/us_pc && ./sm64.us.f3dex2e'
+alias cid='python $HOME/docs/coding/py/cursefromid/cursefromid.py $1'
+alias mod='touch $1 && git add $1 && git commit -m "$2"'

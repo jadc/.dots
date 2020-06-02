@@ -3725,3 +3725,155 @@ May 14 17:18 : player: played "unreleased/leaks/cdq/Range Rover Sport Truck.mp3"
 May 14 17:21 : player: played "unreleased/leaks/cdq/Range Rover Sport Truck.mp3"
 May 14 17:21 : client: [0] closed
 May 14 17:21 : player: played "unreleased/leaks/cdq/Range Rover Sport Truck.mp3"
+May 15 15:46 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 15 15:46 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 15 15:46 : client: [0] opened from 127.0.0.1:52226
+May 15 15:46 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 15 15:46 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+May 15 15:47 : client: [0] closed
+May 15 15:49 : player: played "unreleased/leaks/cdq/Range Rover Sport Truck.mp3"
+May 15 15:52 : player: played "unreleased/leaks/cdq/Range Rover Sport Truck.mp3"
+May 15 15:53 : client: [1] opened from 127.0.0.1:52256
+May 15 15:53 : update: updating unreleased/leaks/cdq/Range Rover Sport Truck.mp3
+May 15 15:53 : update: added unreleased/lq/Capalot.mp4
+May 15 15:55 : player: played "unreleased/leaks/cdq/Range Rover Sport Truck.mp3"
+May 15 15:58 : player: played "unreleased/leaks/cdq/Range Rover Sport Truck.mp3"
+May 15 16:01 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+May 15 16:02 : player: played "unreleased/leaks/cdq/Range Rover Sport Truck.mp3"
+May 15 16:05 : player: played "unreleased/leaks/cdq/Range Rover Sport Truck.mp3"
+May 15 16:08 : player: played "unreleased/leaks/cdq/Range Rover Sport Truck.mp3"
+May 15 16:08 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+May 15 16:12 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+May 15 16:12 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+May 15 16:13 : client: [1] closed
+May 15 16:13 : client: [2] opened from 127.0.0.1:52524
+May 15 16:13 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+May 15 16:15 : player: played "unreleased/leaks/cdq/Range Rover Sport Truck.mp3"
+May 16 00:45 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 16 00:45 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 16 00:45 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 16 00:45 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+May 16 00:45 : client: [0] opened from 127.0.0.1:50354
+May 16 00:49 : client: [0] closed
+May 16 01:16 : player: played "released/Lil Uzi Vert - Eternal Atake (Deluxe) - LUV vs. The World 2/CD1/12 - Money Spread (feat. Young Nudy).flac"
+May 16 22:52 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 16 22:52 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 16 22:52 : client: [0] opened from 127.0.0.1:52542
+May 16 22:52 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 16 22:52 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+May 16 22:55 : player: played "unreleased/leaks/cdq/Range Rover Sport Truck.mp3"
+May 16 23:28 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+May 16 23:31 : client: [0] closed
+May 16 23:31 : player: played "released/Lil Uzi Vert - Eternal Atake (Deluxe) - LUV vs. The World 2/CD1/14 - Leaders (feat. NAV).flac"
+May 20 00:49 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 20 00:49 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 20 00:49 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 20 00:49 : client: [0] opened from 127.0.0.1:34064
+May 20 00:49 : player: played "released/Lil Uzi Vert - Eternal Atake (Deluxe) - LUV vs. The World 2/CD1/14 - Leaders (feat. NAV).flac"
+May 20 00:49 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+May 20 00:49 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+May 20 00:50 : player: played "unreleased/leaks/cdq/Range Rover Sport Truck.mp3"
+May 20 00:51 : player: played "unreleased/lq/Act Like A Fool.mp4"
+May 20 00:51 : player: played "unreleased/lq/Act Like A Fool.mp4"
+May 20 00:51 : player: played "unreleased/lq/Act Like A Fool.mp4"
+May 20 00:51 : player: played "unreleased/lq/Door.mp4"
+May 20 00:51 : player: played "unreleased/lq/Eat It (2).mp4"
+May 20 00:51 : player: played "unreleased/lq/Homicide (2).mp4"
+May 20 00:52 : player: played "unreleased/lq/Lil Shorty.mov"
+May 20 00:52 : player: played "unreleased/lq/Lil Shorty.mov"
+May 20 00:52 : player: played "unreleased/lq/Lil Shorty.mov"
+May 20 00:52 : client: [0] closed
+May 20 00:52 : player: played "unreleased/lq/Lil Shorty.mov"
+May 21 15:54 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 21 15:54 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 21 15:54 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 21 15:54 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+May 21 15:54 : client: [0] opened from 127.0.0.1:50048
+May 21 15:55 : player: played "unreleased/lq/Lil Shorty.mov"
+May 21 15:55 : update: added unreleased/leaks/cdq/High As Us.mp3
+May 21 15:55 : update: removing unreleased/lq/That's A No (with Transition).mp4
+May 21 15:55 : update: added unreleased/lq/Act A Fooley.mp4
+May 21 15:55 : update: added unreleased/lq/High As Us (4).mp4
+May 21 15:55 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: overread end of atom 'stsd' by 16 bytes
+May 21 15:55 : update: added unreleased/lq/Kool-Aid Smiles.mp4
+May 21 15:55 : update: added unreleased/lq/Off The Bean (2).mp4
+May 21 15:55 : update: added unreleased/lq/og/A Lot On My Mind (OG).mkv
+May 21 15:55 : update: added unreleased/lq/og/Fell In Luv (OG Beat).mkv
+May 21 15:55 : update: added unreleased/lq/She's A Wild Thing.mp4
+May 21 15:55 : update: added unreleased/lq/Trenches.mp4
+May 21 15:55 : update: added unreleased/lq/gayboi.mp4
+May 21 15:55 : update: added unreleased/videos/Backstage.mp4
+May 21 15:55 : update: added unreleased/videos/Full Body.mp4
+May 21 15:55 : update: added unreleased/videos/jayxkreased.mp4
+May 21 15:55 : player: played "unreleased/lq/Lil Shorty.mov"
+May 21 15:55 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+May 21 15:57 : client: [0] closed
+May 21 15:57 : client: [1] opened from 127.0.0.1:50072
+May 21 15:57 : client: [1] closed
+May 21 18:39 : player: played "unreleased/leaks/cdq/High As Us.mp3"
+May 22 10:28 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 22 10:28 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 22 10:29 : client: [0] opened from 127.0.0.1:41176
+May 22 10:29 : update: added unreleased/leaks/cdq/She's A Wild Thing.mp3
+May 22 10:29 : update: added unreleased/remixes/Pain_1993_Remix.mp3
+May 22 10:30 : client: [0] closed
+May 22 10:42 : player: played "unreleased/leaks/cdq/High As Us.mp3"
+May 24 14:48 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 24 14:48 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 24 14:48 : client: [0] opened from 127.0.0.1:39216
+May 24 14:48 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 24 14:48 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+May 24 14:48 : client: [0] closed
+May 24 14:48 : client: [1] opened from 127.0.0.1:39222
+May 24 14:48 : client: [1] closed
+May 24 14:48 : client: [2] opened from 127.0.0.1:39224
+May 24 14:48 : client: [2] closed
+May 24 17:13 : player: played "unreleased/leaks/cdq/Pop Bottles.mp3"
+May 26 22:02 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 26 22:02 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 26 22:02 : client: [0] opened from 127.0.0.1:49790
+May 26 22:03 : ffmpeg/aac: Could not update timestamps for skipped samples.
+May 26 22:03 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 26 22:03 : player: played "unreleased/leaks/cdq/Bustdown.m4a"
+May 26 22:03 : ffmpeg/aac: Could not update timestamps for skipped samples.
+May 26 22:03 : player: played "unreleased/leaks/cdq/Bustdown.m4a"
+May 26 22:03 : ffmpeg/aac: Could not update timestamps for skipped samples.
+May 26 22:06 : ffmpeg/aac: Could not update timestamps for skipped samples.
+May 26 22:06 : player: played "unreleased/leaks/cdq/Bustdown.m4a"
+May 26 22:29 : client: [0] closed
+May 27 00:53 : player: played "unreleased/leaks/cdq/Bustdown.m4a"
+May 28 20:44 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 28 20:44 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 28 20:44 : client: [0] opened from 127.0.0.1:49206
+May 28 20:44 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 28 20:47 : player: played "unreleased/leaks/cdq/Go Up.mp3"
+May 28 20:51 : player: played "unreleased/leaks/cdq/Goku.mp3"
+May 28 20:53 : player: played "unreleased/leaks/cdq/Goku.mp3"
+May 28 20:55 : player: played "unreleased/leaks/cdq/Goku.mp3"
+May 28 20:57 : player: played "unreleased/leaks/cdq/Goku.mp3"
+May 28 20:59 : player: played "unreleased/leaks/cdq/Goku.mp3"
+May 28 21:01 : player: played "unreleased/leaks/cdq/Goku.mp3"
+May 28 21:03 : player: played "unreleased/leaks/cdq/Goku.mp3"
+May 28 21:06 : player: played "unreleased/leaks/cdq/Goku.mp3"
+May 28 21:08 : player: played "unreleased/leaks/cdq/Goku.mp3"
+May 28 21:10 : player: played "unreleased/leaks/cdq/Goku.mp3"
+May 28 21:12 : player: played "unreleased/leaks/cdq/Goku.mp3"
+May 28 21:14 : player: played "unreleased/leaks/cdq/Goku.mp3"
+May 28 21:16 : player: played "unreleased/leaks/cdq/Goku.mp3"
+May 28 21:18 : player: played "unreleased/leaks/cdq/Goku.mp3"
+May 28 21:20 : player: played "unreleased/leaks/cdq/Goku.mp3"
+May 28 21:22 : player: played "unreleased/leaks/cdq/Goku.mp3"
+May 28 21:25 : player: played "unreleased/leaks/cdq/Goku.mp3"
+May 28 21:27 : player: played "unreleased/leaks/cdq/Goku.mp3"
+May 28 21:29 : player: played "unreleased/leaks/cdq/Goku.mp3"
+May 28 21:31 : player: played "unreleased/leaks/cdq/Goku.mp3"
+May 28 21:32 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+May 28 21:36 : player: played "unreleased/leaks/cdq/Emotional.mp3"
+May 28 21:43 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+May 28 21:45 : player: played "unreleased/leaks/cdq/Matilda.mp3"
+May 28 21:48 : player: played "unreleased/leaks/cdq/Matilda.mp3"
+May 28 21:49 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+May 28 21:51 : player: played "unreleased/leaks/cdq/Piru.mp3"
+May 28 21:54 : player: played "unreleased/leaks/cdq/Piru.mp3"
+May 29 00:07 : client: [0] closed
+May 29 00:07 : player: played "unreleased/leaks/cdq/Piru.mp3"

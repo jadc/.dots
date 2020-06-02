@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/home/jad/.config'
+let g:netrw_dirhist_0='/home/jad/.config/yay'
+let g:netrw_dirhist_9='/media/storage/docs/mc/modpacks/dompack/overrides/config/cofh'
+let g:netrw_dirhist_8='/home/jad/.config/gtk-3.0'
+let g:netrw_dirhist_7='/home/jad/.local/share/applications'
+let g:netrw_dirhist_6='/home/jad/.dots/scripts'
+let g:netrw_dirhist_5='/media/storage/games/mc/instances/dom/minecraft/config/brandon3055'
+let g:netrw_dirhist_4='/media/storage/games/mc/instances/dom/minecraft/config/astralsorcery'
+let g:netrw_dirhist_3='/media/storage/docs/mc/modpacks/dompack/overrides/config/biomesoplenty'
+let g:netrw_dirhist_2='/usr/lib/modprobe.d'
