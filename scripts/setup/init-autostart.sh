@@ -1,3 +1,3 @@
 #!/bin/sh
 chromium &
-discord-canary &
+discord &

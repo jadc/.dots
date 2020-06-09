@@ -1,7 +1,7 @@
 {
 	"aururl": "https://aur.archlinux.org",
-	"buildDir": "$HOME/.cache/yay",
-	"absdir": "$HOME/.cache/yay/abs",
+	"buildDir": "/tmp/yay",
+	"absdir": "/tmp/yay/abs",
 	"editor": "",
 	"editorflags": "",
 	"makepkgbin": "makepkg",

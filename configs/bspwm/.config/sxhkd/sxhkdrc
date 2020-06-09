@@ -126,7 +126,7 @@ super + {Left,Down,Up,Right}
 
 # screenshot
 Print
-	maim -s | xclip -selection clipboard -t image/png
+	maim -s -u | xclip -selection clipboard -t image/png
 
 # color picker to clipboard
 super + Print
@@ -155,6 +155,10 @@ Num_Lock
     $SCRIPTS/notify.sh "Zzz..." && \
     sleep 1 && \
     xset dpms force off
+
+# reboot
+KP_Subtract
+    reboot
 
 # restart menu
 # super + End
