@@ -3999,3 +3999,24 @@ Jun 08 21:20 : exception: No such directory
 Jun 08 21:20 : alsa_output: Decoder is too slow; playing silence to avoid xrun
 Jun 08 21:22 : client: [1] closed
 Jun 09 01:02 : player: played "unreleased/leaks/cdq/Yayo.mp3"
+Jun 09 16:59 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jun 09 16:59 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jun 09 16:59 : client: [0] opened from 127.0.0.1:41566
+Jun 09 16:59 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jun 09 16:59 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Jun 09 17:02 : player: played "misc/bad/Playboi Carti - Bet Flip All H (Snippet).mp3"
+Jun 09 17:03 : player: played "misc/bad/Playboi Carti - Gremlin (CDQ LEAK).mp3"
+Jun 09 17:03 : player: played "misc/bad/Playboi Carti - Gremlin (CDQ LEAK).mp3"
+Jun 09 17:03 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Jun 09 17:03 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Jun 09 17:04 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Jun 09 17:04 : client: [0] closed
+Jun 09 17:06 : player: played "misc/skai/17_P_InstagramHoes.mp3"
+Jun 09 23:29 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jun 09 23:29 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jun 09 23:29 : client: [0] opened from 127.0.0.1:47104
+Jun 09 23:29 : player: played "misc/skai/17_P_InstagramHoes.mp3"
+Jun 09 23:29 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jun 09 23:29 : player: played "released/Pi'Erre Bourne - The Life Of Pi'erre 4/01 - Poof.mp3"
+Jun 09 23:32 : player: played "released/Pi'Erre Bourne - The Life Of Pi'erre 4/01 - Poof.mp3"
+Jun 09 23:35 : player: played "released/Pi'Erre Bourne - The Life Of Pi'erre 4/02 - Try Again.mp3"
