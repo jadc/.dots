@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/jad/.dots/configs/xdg/.config'
+let g:netrw_dirhist_2='/home/jad/.dots/scripts/path'
+let g:netrw_dirhist_1='/home/jad/.dots/scripts'
+let g:netrw_dirhist_0='/home/jad/.dots/scripts/path'
+let g:netrw_dirhist_9='/home/jad/.dots/scripts'
+let g:netrw_dirhist_8='/media/storage/docs/mc/modpacks/dompack/overrides/config/itlt'
+let g:netrw_dirhist_7='/media/storage/games/mc/instances/dompack.beta-1.4/minecraft/config/icbmclassic/mods'
+let g:netrw_dirhist_6='/media/storage/games/mc/instances/dompack.beta-1.4/minecraft/config/icbmclassic'
+let g:netrw_dirhist_5='/media/storage/games/mc/instances/dom/minecraft/config/ProjectE'
+let g:netrw_dirhist_4='/media/usb/Shows/Game of Thrones'

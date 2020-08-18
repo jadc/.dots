@@ -26,3 +26,5 @@ bspc rule -a obs state=floating
 bspc rule -a MultiMC5 state=floating
 bspc rule -a Steam state=floating
 bspc rule -a code-oss state=floating
+bspc rule -a "Minecraft 1.12.2" state=floating
+bspc rule -a URxvt:ncmpcpp desktop=^6 state=fullscreen focus=off

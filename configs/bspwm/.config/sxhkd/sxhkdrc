@@ -157,8 +157,8 @@ Num_Lock
     xset dpms force off
 
 # reboot
-KP_Subtract
-    reboot
+# KP_Subtract
+#    reboot
 
 # restart menu
 # super + End

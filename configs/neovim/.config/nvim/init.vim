@@ -1,3 +1,9 @@
+" sin free
+map <up> <nop>
+map <down> <nop>
+map <left> <nop>
+map <right> <nop>
+
 " disable backups
 set nobackup
 set nowritebackup
@@ -9,20 +15,33 @@ set backspace=indent,eol,start
 
 " relative numbers
 " set relativenumber
-set number
+" set number
+nnoremap <F2> :set nonumber!<CR>
+
+" copy to system clipboard
+set clipboard+=unnamedplus
 
 " syntax highlighting
 syntax on
+
+" folding
+set foldenable
+set foldlevelstart=10
+set foldnestmax=10
+set foldmethod=indent
+nnoremap <space> za
 
 " searching
 set hlsearch
 set incsearch
 set ignorecase
 set smartcase
-noremap <silent> <leader><cr> :noh<cr>
 
 " reduce delay that vim waits for key combos
 set timeoutlen=250
+
+" draw optimization
+set lazyredraw
 
 " show hidden characters & fix unicode 
 scriptencoding utf-8
@@ -32,7 +51,25 @@ set listchars=eol:⮠
 " better tabs
 set expandtab
 set tabstop=4
+set softtabstop=4
 set shiftwidth=4
+set shiftround
+set smarttab
+
+" indenting
+set autoindent
+set copyindent
+
+" history
+set history=1000
+set undolevels=1000
+
+" beep
+set visualbell
+set noerrorbells
+
+" laziness
+nnoremap ; :
 
 " html indentation
 filetype indent on
@@ -51,11 +88,10 @@ autocmd BufWritePost sxhkdrc silent! execute "!pkill -USR1 -x sxhkd"
 " mapping
 "- markdown exclusive
 autocmd FileType markdown inoremap ;i ![](images/unit)<Esc>i
-autocmd FileType markdown command Notes r!cat ~/.dots/configs/vim/.vim/templates/template-notes.md
 
 "- displayed line keys
 nnoremap j gj
 nnoremap k gk
 
 "- luke smith
-inoremap <Tab><Tab> <Esc>/<++><Enter>"_c4l
+"inoremap <Tab><Tab> <Esc>/<++><Enter>"_c4l
