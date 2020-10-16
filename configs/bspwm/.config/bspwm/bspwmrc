@@ -1,15 +1,13 @@
 #! /bin/sh
 
 sxhkd &
-dunst &
-$HOME/.fehbg &
+$HOME/.dots/scripts/setup/xrandr.sh
+$HOME/.dots/scripts/setup/autostart.sh
 
-$HOME/.dots/scripts/setup/init-xrandr.sh
-$HOME/.dots/scripts/setup/init-polybar.sh
-$HOME/.dots/scripts/setup/init-autostart.sh
-
-bspc monitor DP-4 -d I II III IV V VI
-bspc monitor HDMI-0 -d VII VIII IX
+#bspc monitor DP-4 -d I II III IV V VI
+#bspc monitor HDMI-0 -d VII VIII IX
+bspc monitor HDMI3 -d I II III IV V VI
+bspc monitor VGA1 -d VII VIII IX
 
 bspc config border_width         1
 bspc config window_gap           0
@@ -19,12 +17,10 @@ bspc config borderless_monocle   true
 bspc config single_monocle       true
 bspc config gapless_monocle      true
 
+# 60Hz = 17, 144Hz = 7
+bspc config pointer_motion_interval 7
+
 # Program Rules
 bspc rule -a Chromium desktop='^1'
 bspc rule -a discord desktop='^9' state=fullscreen focus=off
 bspc rule -a obs state=floating
-bspc rule -a MultiMC5 state=floating
-bspc rule -a Steam state=floating
-bspc rule -a code-oss state=floating
-bspc rule -a "Minecraft 1.12.2" state=floating
-bspc rule -a URxvt:ncmpcpp desktop=^6 state=fullscreen focus=off

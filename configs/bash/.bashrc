@@ -40,4 +40,4 @@ set -o vi
 bind -m vi-insert "\C-l":clear-screen
 
 # Showing off
-neofetch
+pr

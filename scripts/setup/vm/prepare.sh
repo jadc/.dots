@@ -1,5 +1,7 @@
 #!/bin/sh
-set -x
 
 # Turn off main monitor
-su -l jad -c "DISPLAY=:0 xrandr --output HDMI3 --off"
+xrandr --output HDMI3 --off
+
+# Lower refresh rate of bspwm
+bspc config pointer_motion_interval 17

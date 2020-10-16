@@ -68,9 +68,6 @@ set undolevels=1000
 set visualbell
 set noerrorbells
 
-" laziness
-nnoremap ; :
-
 " html indentation
 filetype indent on
 filetype plugin indent on
@@ -80,15 +77,13 @@ set wrap linebreak nolist
 
 " auto on save
 "- latex compile
+"autocmd BufWritePost *.tex silent! execute "!mkdir -p %_data && pdflatex -output-directory=%_data % >/dev/null 2>&1" | redraw!
 autocmd BufWritePost *.tex silent! execute "!pdflatex % >/dev/null 2>&1" | redraw!
 
 "- sxhkd reload
 autocmd BufWritePost sxhkdrc silent! execute "!pkill -USR1 -x sxhkd"
 
 " mapping
-"- markdown exclusive
-autocmd FileType markdown inoremap ;i ![](images/unit)<Esc>i
-
 "- displayed line keys
 nnoremap j gj
 nnoremap k gk

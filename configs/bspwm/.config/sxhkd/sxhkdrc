@@ -11,8 +11,8 @@ super + @space
 	dmenu_run
 
 # make sxhkd reload its configuration files:
-super + Escape
-	pkill -USR1 -x sxhkd
+#super + Escape
+#	pkill -USR1 -x sxhkd
 
 #
 # bspwm hotkeys
@@ -89,16 +89,16 @@ super + {_,shift + }{1-9,0}
 #
 
 # preselect the direction
-super + ctrl + {h,j,k,l}
-	bspc node -p {west,south,north,east}
+#super + ctrl + {h,j,k,l}
+#	bspc node -p {west,south,north,east}
 
 # preselect the ratio
-super + ctrl + {1-9}
-	bspc node -o 0.{1-9}
+#super + ctrl + {1-9}
+#	bspc node -o 0.{1-9}
 
 # cancel the preselection for the focused node
-super + ctrl + space
-	bspc node -p cancel
+#super + ctrl + space
+#	bspc node -p cancel
 
 # cancel the preselection for the focused desktop
 super + ctrl + shift + space
@@ -129,42 +129,33 @@ Print
 	maim -s -u | xclip -selection clipboard -t image/png
 
 # color picker to clipboard
-super + Print
-    colorpicker --short --one-shot --preview | xclip -selection clipboard && \
-    $SCRIPTS/notify.sh "Copied colour to clipboard"
+#super + Print
+#    colorpicker --short --one-shot --preview | xclip -selection clipboard && \
+#    dunstify "Copied colour to clipboard"
 
 # volume controls
-XF86AudioRaiseVolume
+#XF86AudioRaiseVolume
+Prior
     $SCRIPTS/volume.sh 2%+
-XF86AudioLowerVolume 
+
+#XF86AudioLowerVolume 
+Next
     $SCRIPTS/volume.sh 2%-
 
-XF86AudioMute
+# XF86AudioMute
+ctrl + Next
     amixer sset Master toggle; \
-    $SCRIPTS/notify.sh "~~%"
+    dunstify -r 2900 "~~%"
 
 # time display
 Pause
-    $SCRIPTS/notify.sh "$(date '+%-I:%M %P')"
+    dunstify -r 2901 "$(date '+%-I:%M %P')"
 
 super + Pause
-    $SCRIPTS/notify.sh "$(date +'%A, %b %-d')"
+    dunstify -r 2901 "$(date +'%A, %b %-d')"
 
 # display off
-Num_Lock
-    $SCRIPTS/notify.sh "Zzz..." && \
-    sleep 1 && \
-    xset dpms force off
-
-# reboot
-# KP_Subtract
-#    reboot
-
-# restart menu
-# super + End
-#     $SCRIPTS/dmenu/state.sh
-
-# toggle equalizer
-super + shift + e
-    pulseaudio-equalizer toggle > /dev/null; \
-    $SCRIPTS/notify.sh "$(pulseaudio-equalizer status | sed -n 3p)"
+#Num_Lock
+#    $SCRIPTS/notify.sh "Zzz..." && \
+#    sleep 1 && \
+#    xset dpms force off

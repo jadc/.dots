@@ -1,0 +1,7 @@
+#!/bin/sh
+# KVM
+sudo virsh start win10 && echo Waiting for guest to power on && sleep 10 && xrandr --output HDMI3 --off
+
+# Dual booting
+#sudo grub-reboot "$(grep -i 'windows' /boot/grub/grub.cfg|cut -d"'" -f2)" && sudo reboot
+

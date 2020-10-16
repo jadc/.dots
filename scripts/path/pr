@@ -1,2 +1,3 @@
 #!/bin/sh
-python /media/storage/docs/coding/py/prayer/prayer.py
+cd /media/storage/docs/coding/py/prayer/
+./cache.sh

@@ -2,4 +2,4 @@
 
 amixer sset Master $1
 amixer sset Master on
-$SCRIPTS/notify.sh "$(amixer get Master | tail -1 | awk '$0~/%/{print $5}' | tr -d '[]')"
+dunstify -r 2900 "$(amixer get Master | tail -1 | awk '$0~/%/{print $5}' | tr -d '[]')"

@@ -2,7 +2,7 @@
     ### Display ###
 
     # Which monitor should the notifications be displayed on.
-    monitor = 1
+    monitor = 2
 
     # Display notification on focused monitor.  Possible modes are:
     #   mouse: follow mouse pointer
@@ -29,7 +29,7 @@
     # the top and down respectively.
     # The width can be negative.  In this case the actual width is the
     # screen width minus the width defined in within the geometry option.
-    geometry = "0x0-5-5"
+    geometry = "0x0+0-5"
 
     # Show how many messages are currently hidden (because of geometry).
     indicate_hidden = false
@@ -82,7 +82,7 @@
     # Set to 0 to disable.
     # A client can set the 'transient' hint to bypass this. See the rules
     # section for how to disable this if necessary
-    idle_threshold = 120
+    idle_threshold = 0
 
     ### Text ###
 
@@ -135,7 +135,7 @@
     # Show age of message if message is older than show_age_threshold
     # seconds.
     # Set to -1 to disable.
-    show_age_threshold = 60
+    show_age_threshold = -1
 
     # Split notifications into multiple lines if they don't fit into
     # geometry.
@@ -152,7 +152,7 @@
     stack_duplicates = true
 
     # Hide the count of stacked notifications with the same content
-    hide_duplicate_count = false
+    hide_duplicate_count = true
 
     # Display indicators for URLs (U) and actions (A).
     show_indicators = yes
@@ -172,10 +172,10 @@
 
     # Should a notification popped up from history be sticky or timeout
     # as if it would normally do.
-    sticky_history = yes
+    sticky_history = no
 
     # Maximum amount of notifications kept in history
-    history_length = 20
+    history_length = 0
 
     ### Misc/Advanced ###
 
@@ -248,7 +248,7 @@
     # dunst will attempt to calculate an appropriate dpi value for each monitor
     # using the resolution and physical size. This might be useful in setups
     # where there are multiple screens with very different dpi values.
-    per_monitor_dpi = false
+    per_monitor_dpi = true
 
 [shortcuts]
 
@@ -258,19 +258,19 @@
     # Xev might be helpful to find names for keys.
 
     # Close notification.
-    close = ctrl+space
+    close = 
 
     # Close all notifications.
-    close_all = ctrl+shift+space
+    close_all = 
 
     # Redisplay last message(s).
     # On the US keyboard layout "grave" is normally above TAB and left
     # of "1". Make sure this key actually exists on your keyboard layout,
     # e.g. check output of 'xmodmap -pke'
-    history = ctrl+grave
+    history = 
 
     # Context menu.
-    context = ctrl+shift+period
+    context = 
 
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
@@ -284,7 +284,7 @@
 [urgency_normal]
     background = "#0d0d0d"
     foreground = "#ffffff"
-    timeout = 3
+    timeout = 5
     # Icon for notifications with normal urgency, uncomment to enable
     #icon = /path/to/icon
 
