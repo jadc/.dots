@@ -1,2 +1,0 @@
-#!/bin/sh
-while true; do dunstify -r 2901 "$(date '+%-I:%M %P')"; sleep 4; done

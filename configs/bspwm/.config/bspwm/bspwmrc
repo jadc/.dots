@@ -4,10 +4,12 @@ sxhkd &
 $HOME/.dots/scripts/setup/xrandr.sh
 $HOME/.dots/scripts/setup/autostart.sh
 
-#bspc monitor DP-4 -d I II III IV V VI
-#bspc monitor HDMI-0 -d VII VIII IX
-bspc monitor HDMI3 -d I II III IV V VI
-bspc monitor VGA1 -d VII VIII IX
+# normal
+bspc monitor DP-4 -d I II III IV V VI
+bspc monitor HDMI-0 -d VII VIII IX
+# kvm
+#bspc monitor HDMI3 -d I II III IV V VI
+#bspc monitor VGA1 -d VII VIII IX
 
 bspc config border_width         1
 bspc config window_gap           0
