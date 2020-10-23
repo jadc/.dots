@@ -7,9 +7,11 @@ alias grep='grep --color=auto'
 alias du='du -h'
 alias cp='cp -iv'
 alias mv='mv -iv'
+alias feh='feh -d'
+alias make='make -j$(nproc)'
+
 #alias neofetch='neofetch --source $HOME/.fetch.png --backend w3m --size 200px --underline off --color_blocks off --disable shell resolution theme icons term kernel'
 alias neofetch='neofetch --ascii_distro arch_small --underline off --color_blocks off --os_arch off --disable shell resolution theme icons term kernel wm distro'
-alias feh='feh -d'
 
 alias gp='git add . && git commit -m "$(date)" && git push -u origin master'
 #alias vaultup='rclone sync ~/music/unreleased cj:unreleased -P --drive-use-trash=false'
