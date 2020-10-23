@@ -8,7 +8,7 @@ super + Return
 
 # program launcher
 super + @space
-	dmenu_run
+	rofi -show drun
 
 # make sxhkd reload its configuration files:
 #super + Escape
@@ -136,16 +136,15 @@ Print
 # volume controls
 #XF86AudioRaiseVolume
 Prior
-    $SCRIPTS/volume.sh 2%+
+    amixer sset Master on && amixer sset Master 2%+
 
 #XF86AudioLowerVolume 
 Next
-    $SCRIPTS/volume.sh 2%-
+    amixer sset Master on && amixer sset Master 2%-
 
 # XF86AudioMute
 ctrl + Next
-    amixer sset Master toggle; \
-    dunstify -r 2900 "~~%"
+    amixer sset Master toggle
 
 # time display
 Pause
