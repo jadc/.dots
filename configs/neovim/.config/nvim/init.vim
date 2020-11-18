@@ -90,3 +90,7 @@ nnoremap k gk
 
 "- luke smith
 "inoremap <Tab><Tab> <Esc>/<++><Enter>"_c4l
+
+" exclusives
+"- latex itemize
+autocmd Filetype tex,latex inoremap ;; \begin{itemize}<Enter>\item{}<Enter>\end{itemize}<Esc>ki

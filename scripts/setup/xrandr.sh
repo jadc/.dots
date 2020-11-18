@@ -4,3 +4,5 @@
 
 # normal
 xrandr --output DP-4 --left-of HDMI-0
+# yo. future jad. if the monitor names are different, make sure to install nvidia. if that gives you a black screen, blacklist
+# https://wiki.archlinux.org/index.php/NVIDIA/Troubleshooting#Black_screen_on_systems_with_Intel_integrated_GPU

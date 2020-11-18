@@ -13,6 +13,10 @@ export BROWSER='chromium'
 export READER='zathura'
 export SHELL='bash'
 
+## MC
+export MCRCON_HOST='10.0.0.9'
+export MCRCON_PASS='14351733'
+
 # Source .bashrc
 [ -f $HOME/.bashrc ] && source $HOME/.bashrc
 
