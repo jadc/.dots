@@ -1,2 +1,2 @@
 #!/bin/sh
-ffmpeg -re -stream_loop -1 -i $1 -s:v 640x480 -f v4l2 /dev/video7
+ffmpeg -re -stream_loop -1 -i $1 -s:v 1280x720 -f v4l2 /dev/video7

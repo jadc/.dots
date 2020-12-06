@@ -1,5 +1,5 @@
 alias r='. ranger'
-alias yt='youtube-dlc'
+alias yt='youtube-dl'
 alias v='$EDITOR'
 
 alias ls='ls --color=auto -a'
