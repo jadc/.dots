@@ -13,6 +13,9 @@ alias music='ncmpcpp'
 alias py='python'
 
 alias 7zs='7z a -t7z -mx=9 -mfb=273 -ms -md=31 -myx=9 -mtm=- -mmt -mmtf -md=1536m -mmf=bt3 -mmc=10000 -mpb=0 -mlc=0'
+alias cl="curl -F 'clbin=<-' https://clbin.com"
+alias insta='instaloader --login jad.jc --stories --highlights --igtv --fast-update'
+alias live='cd /home/jad/docs/archive/tools/pyinstalive && /home/jad/.local/bin/pyinstalive -o'
 
 #alias neofetch='neofetch --source $HOME/.fetch.png --backend w3m --size 200px --underline off --color_blocks off --disable shell resolution theme icons term kernel'
 alias neofetch='neofetch --ascii_distro arch_small --underline off --color_blocks off --os_arch off --disable shell resolution theme icons term kernel wm distro'
