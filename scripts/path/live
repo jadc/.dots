@@ -1,3 +1,2 @@
 #!/bin/sh
-
 cd /home/jad/docs/archive/tools/pyinstalive && /home/jad/.local/bin/pyinstalive -d "$1" && /home/jad/.local/bin/pyinstalive -o
