@@ -15,7 +15,6 @@ alias \
 	du='du -h' \
 	cp='cp -iv' \
 	mv='mv -iv' \
-	rm='rm -v' \
 	mkdir='mkdir -pv' \
 	make='make -j$(nproc)' \
 	tarc='tar -czvf' \
