@@ -1,8 +1,8 @@
 {
 	"aururl": "https://aur.archlinux.org",
-	"buildDir": "/tmp/yay",
-	"absdir": "/tmp/yay/abs",
-	"editor": "",
+	"buildDir": "/home/jad/.yay",
+	"absdir": "/home/jad/.yay/abs",
+	"editor": "nvim",
 	"editorflags": "",
 	"makepkgbin": "makepkg",
 	"makepkgconf": "",
