@@ -11,14 +11,14 @@
 ## ncmpcpp.
 ##
 #
-#ncmpcpp_directory = ~/.ncmpcpp
+#ncmpcpp_directory = /home/jad/.ncmpcpp
 #
 ##
-## Directory for storing downloaded lyrics. It defaults to ~/.lyrics since other
+## Directory for storing downloaded lyrics. It defaults to /home/jad//.lyrics since other
 ## MPD clients (eg. ncmpc) also use that location.
 ##
 #
-#lyrics_directory = ~/.lyrics
+#lyrics_directory = /home/jad/.lyrics
 #
 ##### connection settings #####
 #
@@ -30,7 +30,7 @@ mpd_port = 6600
 #
 ## Needed for tag editor and file operations to work.
 ##
-mpd_music_dir = ~/music
+mpd_music_dir = /home/jad/music
 #
 #mpd_crossfade_time = 5
 #

@@ -8,7 +8,7 @@
 #
 # Sources
 #
-[ -f ~/.aliases ] && source ~/.aliases
+[ -f ~/.aliasrc ] && source ~/.aliasrc
 
 #
 # Configuration
