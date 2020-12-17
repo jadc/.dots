@@ -28,5 +28,4 @@ alias \
 	cl="curl -F 'clbin=<-' https://clbin.com" \
 	insta='instaloader --stories --highlights --igtv --fast-update' \
 	uvr='py /media/storage/docs/archive/tools/UVR-V4GUI/VocalRemover.py' \
-	neofetch='neofetch --ascii_distro arch_small --underline off --color_blocks off --os_arch off --disable shell resolution theme icons term kernel wm distro' \
 	gp='git add . && git commit -m "$(date)" && git push -u origin master'
