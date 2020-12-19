@@ -1,0 +1,2 @@
+#!/bin/sh
+ffmpeg -ss $2 -to $3 -i "$1" -c copy "cut-$1"
