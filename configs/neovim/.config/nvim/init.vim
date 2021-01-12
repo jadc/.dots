@@ -1,3 +1,12 @@
+" plugins
+call plug#begin('~/.config/nvim/plugged')
+Plug 'lervag/vimtex'
+call plug#end()
+
+"" vimtex
+let g:vimtex_view_forward_search_on_start = 0
+let g:vimtex_view_method = 'zathura'
+
 " sin free
 map <up> <nop>
 map <down> <nop>
@@ -13,23 +22,18 @@ set noswapfile
 " delete newlines
 set backspace=indent,eol,start
 
-" relative numbers
-" set relativenumber
-" set number
-nnoremap <F2> :set nonumber!<CR>
-
 " copy to system clipboard
 set clipboard+=unnamedplus
 
 " syntax highlighting
-syntax on
+syntax on 
 
 " folding
-set foldenable
-set foldlevelstart=10
-set foldnestmax=10
-set foldmethod=indent
-nnoremap <space> za
+" set foldenable
+" set foldlevelstart=10
+" set foldnestmax=10
+" set foldmethod=indent
+" nnoremap <space> za
 
 " searching
 set hlsearch
@@ -75,10 +79,13 @@ filetype plugin indent on
 " word wrap (as opposed to letters)
 set wrap linebreak nolist
 
+" netwr off
+let g:loaded_netrwPlugin = 1
+
 " auto on save
 "- latex compile
 "autocmd BufWritePost *.tex silent! execute "!mkdir -p %_data && pdflatex -output-directory=%_data % >/dev/null 2>&1" | redraw!
-autocmd BufWritePost *.tex silent! execute "!pdflatex % >/dev/null 2>&1" | redraw!
+"autocmd BufWritePost *.tex silent! execute "!pdflatex % >/dev/null 2>&1" | redraw!
 
 "- sxhkd reload
 autocmd BufWritePost sxhkdrc silent! execute "!pkill -USR1 -x sxhkd"
@@ -87,9 +94,6 @@ autocmd BufWritePost sxhkdrc silent! execute "!pkill -USR1 -x sxhkd"
 "- displayed line keys
 nnoremap j gj
 nnoremap k gk
-
-"- luke smith
-"inoremap <Tab><Tab> <Esc>/<++><Enter>"_c4l
 
 " exclusives
 "- latex itemize

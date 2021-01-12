@@ -17,9 +17,8 @@ alias \
 	mv='mv -iv' \
 	mkdir='mkdir -pv' \
 	make='make -j$(nproc)' \
-	tarc='tar -czvf' \
-	tarx='tar -xzvf' \
 	ffmpeg='ffmpeg -hide_banner' \
+	mpv='mpv --osd-fractions'
 
 # long
 alias \
