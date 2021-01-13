@@ -3,9 +3,8 @@
 wmname LG3D
 
 sxhkd &
-polybar 2nd &
 $HOME/.dots/scripts/setup/xrandr.sh
-$HOME/.dots/scripts/setup/autostart.sh
+$HOME/.dots/scripts/setup/autostart.sh &
 
 # normal
 bspc monitor DP-4 -d I II III IV V VI
