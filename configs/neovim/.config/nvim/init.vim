@@ -1,11 +1,15 @@
 " plugins
 call plug#begin('~/.config/nvim/plugged')
 Plug 'lervag/vimtex'
+Plug 'chrisbra/Colorizer'
 call plug#end()
 
 "" vimtex
 let g:vimtex_view_forward_search_on_start = 0
 let g:vimtex_view_method = 'zathura'
+
+"" colorizer
+let g:colorizer_auto_filetype='css,html,conf,h'
 
 " sin free
 map <up> <nop>

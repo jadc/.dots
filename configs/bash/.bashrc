@@ -40,5 +40,5 @@ HISTCONTROL=ignoredups:erasedups
 set -o vi
 bind -m vi-insert "\C-l":clear-screen
 
-# Showing off
-pfetch
+# fetch
+jfetch
