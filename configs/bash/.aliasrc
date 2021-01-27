@@ -27,5 +27,5 @@ alias \
 	cl="curl -F 'clbin=<-' https://clbin.com" \
 	insta='instaloader --stories --highlights --igtv --fast-update' \
 	uvr='py /media/storage/docs/archive/tools/UVR-V4GUI/VocalRemover.py' \
-	gp='git add . && git commit -m "$(date +%F_%N)" && git push -u origin master' \
-	sl='rm -f config.h *.o; sudo make clean install'
+	gp='git add . && git commit -m "$(date +%Y%m%d-%H%M%S)" && git push -u origin master' \
+	sl='rm -f config.h; sudo make clean install'
