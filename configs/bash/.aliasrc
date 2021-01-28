@@ -1,5 +1,9 @@
 command -v nvim >/dev/null && vim="nvim" vimdiff="nvim -d"
 
+# redirection
+alias \
+    sudo='doas'
+
 # shortcuts
 alias \
 	v='$EDITOR' \

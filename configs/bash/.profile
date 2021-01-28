@@ -21,6 +21,6 @@ export SHELL='bash'
 [ -f $HOME/.bashrc ] && source $HOME/.bashrc
 
 # Start X
-#if systemctl -q is-active graphical.target && [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
+if systemctl -q is-active graphical.target && [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
   exec startx
-#fi
+fi
