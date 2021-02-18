@@ -22,6 +22,7 @@ set nobackup
 set nowritebackup
 set noundofile
 set noswapfile
+let g:loaded_netrwPlugin = 1
 
 " delete newlines
 set backspace=indent,eol,start
@@ -82,9 +83,6 @@ filetype plugin indent on
 
 " word wrap (as opposed to letters)
 set wrap linebreak nolist
-
-" netwr off
-let g:loaded_netrwPlugin = 1
 
 " auto on save
 "- latex compile

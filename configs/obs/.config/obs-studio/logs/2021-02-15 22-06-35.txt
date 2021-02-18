@@ -1,0 +1,132 @@
+10:06:35 PM.512: CPU Name: Intel(R) Core(TM) i7-4790K CPU @ 4.00GHz
+10:06:35 PM.512: CPU Speed: 4080.087MHz
+10:06:35 PM.512: Physical Cores: 4, Logical Cores: 8
+10:06:35 PM.512: Physical Memory: 15881MB Total, 12830MB Free
+10:06:35 PM.512: Kernel Version: Linux 5.10.16-arch1-1
+10:06:35 PM.512: Distribution: "Arch Linux" Unknown
+10:06:35 PM.512: Session Type: tty
+10:06:35 PM.512: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.10
+10:06:35 PM.513: Portable mode: false
+10:06:35 PM.572: OBS 26.1.2-1 (linux)
+10:06:35 PM.572: ---------------------------------
+10:06:35 PM.572: ---------------------------------
+10:06:35 PM.572: audio settings reset:
+10:06:35 PM.572: 	samples per sec: 48000
+10:06:35 PM.572: 	speakers:        2
+10:06:35 PM.575: ---------------------------------
+10:06:35 PM.575: Initializing OpenGL...
+10:06:35 PM.631: Loading up OpenGL on adapter NVIDIA Corporation GeForce RTX 2070 SUPER/PCIe/SSE2
+10:06:35 PM.631: OpenGL loaded successfully, version 3.3.0 NVIDIA 460.39, shading language 3.30 NVIDIA via Cg compiler
+10:06:35 PM.640: ---------------------------------
+10:06:35 PM.640: video settings reset:
+10:06:35 PM.640: 	base resolution:   1920x1080
+10:06:35 PM.640: 	output resolution: 1920x1080
+10:06:35 PM.640: 	downscale filter:  Lanczos
+10:06:35 PM.640: 	fps:               60/1
+10:06:35 PM.640: 	format:            NV12
+10:06:35 PM.640: 	YUV mode:          709/Partial
+10:06:35 PM.640: NV12 texture support not available
+10:06:35 PM.652: Audio monitoring device:
+10:06:35 PM.652: 	name: Monitor of Null Output
+10:06:35 PM.652: 	id: OBS.monitor
+10:06:35 PM.652: ---------------------------------
+10:06:35 PM.654: Failed to load 'en-US' text for module: 'decklink-captions.so'
+10:06:35 PM.656: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+10:06:35 PM.741: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+10:06:35 PM.741: No blackmagic support
+10:06:35 PM.749: v4l2loopback not installed, virtual camera disabled
+10:06:35 PM.756: NVENC supported
+10:06:35 PM.756: FFMPEG VAAPI supported
+10:06:35 PM.758: os_dlopen(/usr//lib/obs-plugins/obs-libfdk.so->/usr//lib/obs-plugins/obs-libfdk.so): libfdk-aac.so.2: cannot open shared object file: No such file or directory
+10:06:35 PM.758: 
+10:06:35 PM.758: Module '/usr//lib/obs-plugins/obs-libfdk.so' not loaded
+10:06:35 PM.769: os_dlopen(libvlc.so.5->libvlc.so.5): libvlc.so.5: cannot open shared object file: No such file or directory
+10:06:35 PM.769: 
+10:06:35 PM.769: Couldn't find VLC installation, VLC video source disabled
+10:06:35 PM.769: ---------------------------------
+10:06:35 PM.769:   Loaded Modules:
+10:06:35 PM.769:     vlc-video.so
+10:06:35 PM.769:     text-freetype2.so
+10:06:35 PM.769:     rtmp-services.so
+10:06:35 PM.769:     obs-x264.so
+10:06:35 PM.769:     obs-transitions.so
+10:06:35 PM.769:     obs-outputs.so
+10:06:35 PM.769:     obs-filters.so
+10:06:35 PM.769:     obs-ffmpeg.so
+10:06:35 PM.769:     linux-v4l2.so
+10:06:35 PM.769:     linux-pulseaudio.so
+10:06:35 PM.769:     linux-jack.so
+10:06:35 PM.769:     linux-decklink.so
+10:06:35 PM.769:     linux-capture.so
+10:06:35 PM.769:     linux-alsa.so
+10:06:35 PM.769:     image-source.so
+10:06:35 PM.769:     frontend-tools.so
+10:06:35 PM.769:     decklink-ouput-ui.so
+10:06:35 PM.769:     decklink-captions.so
+10:06:35 PM.769: ---------------------------------
+10:06:35 PM.770: ==== Startup complete ===============================================
+10:06:35 PM.775: All scene data cleared
+10:06:35 PM.775: ------------------------------------------------
+10:06:35 PM.782: pulse-input: Server name: 'pulseaudio 14.2'
+10:06:35 PM.782: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+10:06:35 PM.782: pulse-input: Started recording from 'alsa_output.usb-Kingston_HyperX_Virtual_Surround_Sound_00000000-00.analog-stereo.monitor'
+10:06:35 PM.783: pulse-am: Server name: 'pulseaudio 14.2'
+10:06:35 PM.783: pulse-am: An error occurred while getting the source info!
+10:06:35 PM.783: [Loaded global audio device]: 'Desktop Audio'
+10:06:35 PM.783:     - monitoring: monitor and output
+10:06:35 PM.783: pulse-input: Server name: 'pulseaudio 14.2'
+10:06:35 PM.784: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+10:06:35 PM.784: pulse-input: Started recording from 'alsa_input.usb-Kingston_HyperX_Virtual_Surround_Sound_00000000-00.analog-stereo'
+10:06:35 PM.785: pulse-am: Server name: 'pulseaudio 14.2'
+10:06:35 PM.785: pulse-am: An error occurred while getting the source info!
+10:06:35 PM.785: [Loaded global audio device]: 'Mic/Aux'
+10:06:35 PM.785:     - monitoring: monitor and output
+10:06:35 PM.785: xshm-input: Geometry 1680x1050 @ 1920,0
+10:06:35 PM.786: xshm-input: Geometry 1680x1050 @ 1920,0
+10:06:35 PM.786: xshm-input: Geometry 1920x1080 @ 0,0
+10:06:35 PM.786: v4l2-input: Start capture from /dev/video1
+10:06:35 PM.786: v4l2-input: Unable to open device
+10:06:35 PM.786: v4l2-input: Initialization failed
+10:06:35 PM.787: pulse-input: Server name: 'pulseaudio 14.2'
+10:06:35 PM.787: pulse-input: An error occurred while getting the source info!
+10:06:35 PM.787: Switched to scene 'Primary'
+10:06:35 PM.787: ------------------------------------------------
+10:06:35 PM.787: Loaded scenes:
+10:06:35 PM.787: - scene 'Primary':
+10:06:35 PM.787:     - source: 'Screen Capture (XSHM)' (xshm_input)
+10:06:35 PM.787: - scene 'Secondary':
+10:06:35 PM.787:     - source: 'Screen Capture (XSHM) 2' (xshm_input)
+10:06:35 PM.787: - scene 'School':
+10:06:35 PM.787:     - source: 'Screen Capture (XSHM) 3' (xshm_input)
+10:06:35 PM.787: - scene 'VHS':
+10:06:35 PM.787:     - source: 'Audio Input Capture (PulseAudio)' (pulse_input_capture)
+10:06:35 PM.787:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+10:06:35 PM.787: ------------------------------------------------
+10:06:36 PM.331: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+10:06:36 PM.331: 
+10:06:41 PM.106: Starting recording due to hotkey
+10:06:41 PM.119: ---------------------------------
+10:06:41 PM.119: [x264 encoder: 'recording_h264'] preset: veryfast
+10:06:41 PM.119: [x264 encoder: 'recording_h264'] profile: high
+10:06:41 PM.121: [x264 encoder: 'recording_h264'] settings:
+10:06:41 PM.121: 	rate_control: CRF
+10:06:41 PM.121: 	bitrate:      0
+10:06:41 PM.121: 	buffer size:  0
+10:06:41 PM.121: 	crf:          28
+10:06:41 PM.121: 	fps_num:      60
+10:06:41 PM.121: 	fps_den:      1
+10:06:41 PM.121: 	width:        1920
+10:06:41 PM.121: 	height:       1080
+10:06:41 PM.121: 	keyint:       250
+10:06:41 PM.121: 
+10:06:41 PM.128: ---------------------------------
+10:06:41 PM.128: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: 3
+10:06:41 PM.128: 
+10:06:41 PM.133: ==== Recording Start ===============================================
+10:06:41 PM.133: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/jad/videos/recorded/2021/20210215-2206.mp4'...
+10:06:48 PM.573: Stopping recording due to hotkey
+10:06:49 PM.028: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/jad/videos/recorded/2021/20210215-2206.mp4' stopped
+10:06:49 PM.028: Output 'adv_file_output': stopping
+10:06:49 PM.028: Output 'adv_file_output': Total frames output: 447
+10:06:49 PM.028: Output 'adv_file_output': Total drawn frames: 474
+10:06:49 PM.028: ==== Recording Stop ================================================

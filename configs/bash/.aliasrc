@@ -28,4 +28,5 @@ alias \
 	insta='instaloader --stories --highlights --igtv --fast-update' \
 	uvr='py /media/storage/docs/archive/tools/UVR-V4GUI/VocalRemover.py' \
 	gp='git add . && git commit -m "$(date +%Y%m%d-%H%M%S)" && git push -u origin master' \
-	sl='rm -f config.h; sudo make clean install'
+	sl='rm -f config.h; sudo make clean install' \
+	pullpi='rclone copy pi:/media/ext/lives . -P'
