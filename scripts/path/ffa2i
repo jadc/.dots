@@ -1,2 +1,2 @@
 #!/bin/sh
-ffmpeg -loop 1 -y -i ~/pics/graphics/music/generic.jpg -i "$1" -shortest -acodec copy "IMG-$1.mp4"
+ffmpeg -loop 1 -y -i ~/pics/graphics/music/generic.jpg -i "$1" -acodec aac -b:a 128k -tune stillimage -crf 30 -shortest -fflags +shortest -max_interleave_delta 500M "IMG-$1.mp4"
