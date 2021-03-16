@@ -1,4 +1,4 @@
-command -v nvim >/dev/null && vim="nvim" vimdiff="nvim -d"
+[ -x "$(command -v nvim)" ] && alias vim="nvim" vimdiff="nvim -d"
 
 # shortcuts
 alias \
@@ -11,22 +11,26 @@ alias \
 # flags
 alias \
     r=". ranger" \
-	ls='ls --color=auto -a' \
-	grep='grep --color=auto' \
 	du='du -h' \
 	cp='cp -iv' \
 	mv='mv -iv' \
 	mkdir='mkdir -pv' \
 	make='make -j$(nproc)' \
 	ffmpeg='ffmpeg -hide_banner' \
-	mpvm='mpv --profile=movie'
+	mpvm='mpv --profile=movie' \
+	sshpi='ssh pi@10.0.0.174'
+
+# colours
+alias \
+	ls="ls -hN --color=auto --group-directories-first" \
+	grep="grep --color=auto" \
+	diff="diff --color=auto"
 
 # long
 alias \
 	7zs='7z a -t7z -mx=9 -mfb=273 -ms -md=31 -myx=9 -mtm=- -mmt -mmtf -md=1536m -mmf=bt3 -mmc=10000 -mpb=0 -mlc=0' \
 	cl="curl -F 'clbin=<-' https://clbin.com" \
 	insta='instaloader --stories --highlights --igtv --fast-update' \
-	uvr='py /media/storage/docs/archive/tools/UVR-V4GUI/VocalRemover.py' \
 	gp='git add . && git commit -m "$(date +%Y%m%d-%H%M%S)" && git push -u origin master' \
 	sl='rm -f config.h; sudo make clean install' \
 	pullpi='rclone copy pi:/media/ext/lives . -P'

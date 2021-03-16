@@ -48,7 +48,7 @@ B='\033[0;30m'
 NC='\033[0m'
 
 echo -e "$B ,o()()o,  ${C}$USER$NC"
-echo -e "$B,o'    'o,  ${C}os${NC}  popbobOS"
-echo -e "$B'O $G.  .$B O'  ${C}up${NC}  $(uptime -p | cut -c 4-)"
+echo -e "$B,o'    'o,  ${C}dt${NC}  $(date '+%b. %d' | awk '{print tolower($0)}')"
+echo -e "$B'O $G.  .$B O'  ${C}up${NC}  $(uptime -p | awk -F'( |,|:)+' '{print $2"h " $4"m"}')"
 echo -e "$B  ·____·    ${C}pk${NC}  $(pacman -Q | wc -l)"
 echo ""
