@@ -1,6 +1,0 @@
-{
-    "crf": 28,
-    "preset": "veryfast",
-    "profile": "high",
-    "rate_control": "CRF"
-}

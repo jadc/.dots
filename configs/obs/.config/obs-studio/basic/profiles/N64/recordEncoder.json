@@ -1,5 +1,0 @@
-{
-    "crf": 24,
-    "rate_control": "CRF",
-    "tune": ""
-}
