@@ -1,11 +1,11 @@
 #!/bin/sh
-IMG='/home/jad/pics/graphics/music/generic.jpg'
+DIR='/home/jad/videos/jadvault'
 NAME=$(echo "$1" | awk -F'.' '{print $1}')
 ffmpeg -i "$1" \
     -loop 1 \
-    -i "$IMG" \
+    -i "$DIR/cover.jpg" \
     -c:a aac -b:a 256k -ar 44100 \
     -c:v libx264 -pix_fmt yuv420p \
     -preset faster -tune stillimage \
     -shortest -fflags +shortest -max_interleave_delta 500M \
-    "$NAME.mp4"
+    "$DIR/$NAME.mp4"

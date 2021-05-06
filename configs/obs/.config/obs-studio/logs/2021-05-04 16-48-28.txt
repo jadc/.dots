@@ -1,0 +1,156 @@
+04:48:28 PM.604: CPU Name: Intel(R) Core(TM) i7-4790K CPU @ 4.00GHz
+04:48:28 PM.604: CPU Speed: 4400.000MHz
+04:48:28 PM.604: Physical Cores: 4, Logical Cores: 8
+04:48:28 PM.604: Physical Memory: 15881MB Total, 8470MB Free
+04:48:28 PM.604: Kernel Version: Linux 5.11.16-arch1-1
+04:48:28 PM.604: Distribution: "Arch Linux" Unknown
+04:48:28 PM.604: Session Type: tty
+04:48:28 PM.605: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.11
+04:48:28 PM.605: Portable mode: false
+04:48:28 PM.641: OBS 26.1.2-2 (linux)
+04:48:28 PM.641: ---------------------------------
+04:48:28 PM.641: ---------------------------------
+04:48:28 PM.641: audio settings reset:
+04:48:28 PM.641: 	samples per sec: 48000
+04:48:28 PM.641: 	speakers:        2
+04:48:28 PM.642: ---------------------------------
+04:48:28 PM.642: Initializing OpenGL...
+04:48:28 PM.686: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce RTX 2070 SUPER/PCIe/SSE2
+04:48:28 PM.686: OpenGL loaded successfully, version 3.3.0 NVIDIA 465.27, shading language 3.30 NVIDIA via Cg compiler
+04:48:28 PM.692: ---------------------------------
+04:48:28 PM.692: video settings reset:
+04:48:28 PM.692: 	base resolution:   1440x1080
+04:48:28 PM.692: 	output resolution: 640x480
+04:48:28 PM.692: 	downscale filter:  Lanczos
+04:48:28 PM.692: 	fps:               15/1
+04:48:28 PM.692: 	format:            NV12
+04:48:28 PM.692: 	YUV mode:          709/Partial
+04:48:28 PM.692: NV12 texture support not available
+04:48:28 PM.692: Audio monitoring device:
+04:48:28 PM.692: 	name: Default
+04:48:28 PM.692: 	id: default
+04:48:28 PM.692: ---------------------------------
+04:48:28 PM.694: Failed to load 'en-US' text for module: 'decklink-captions.so'
+04:48:28 PM.695: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+04:48:28 PM.750: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+04:48:28 PM.750: No blackmagic support
+04:48:28 PM.755: v4l2loopback not installed, virtual camera disabled
+04:48:28 PM.759: NVENC supported
+04:48:28 PM.759: FFMPEG VAAPI supported
+04:48:28 PM.760: os_dlopen(/usr//lib/obs-plugins/obs-libfdk.so->/usr//lib/obs-plugins/obs-libfdk.so): libfdk-aac.so.2: cannot open shared object file: No such file or directory
+04:48:28 PM.760: 
+04:48:28 PM.760: Module '/usr//lib/obs-plugins/obs-libfdk.so' not loaded
+04:48:28 PM.764: os_dlopen(libvlc.so.5->libvlc.so.5): libvlc.so.5: cannot open shared object file: No such file or directory
+04:48:28 PM.764: 
+04:48:28 PM.764: Couldn't find VLC installation, VLC video source disabled
+04:48:28 PM.764: ---------------------------------
+04:48:28 PM.764:   Loaded Modules:
+04:48:28 PM.764:     vlc-video.so
+04:48:28 PM.764:     text-freetype2.so
+04:48:28 PM.764:     rtmp-services.so
+04:48:28 PM.764:     obs-x264.so
+04:48:28 PM.764:     obs-transitions.so
+04:48:28 PM.764:     obs-outputs.so
+04:48:28 PM.764:     obs-filters.so
+04:48:28 PM.764:     obs-ffmpeg.so
+04:48:28 PM.764:     linux-v4l2.so
+04:48:28 PM.764:     linux-pulseaudio.so
+04:48:28 PM.764:     linux-jack.so
+04:48:28 PM.764:     linux-decklink.so
+04:48:28 PM.764:     linux-capture.so
+04:48:28 PM.764:     linux-alsa.so
+04:48:28 PM.764:     image-source.so
+04:48:28 PM.764:     frontend-tools.so
+04:48:28 PM.764:     decklink-ouput-ui.so
+04:48:28 PM.764:     decklink-captions.so
+04:48:28 PM.764: ---------------------------------
+04:48:28 PM.764: ==== Startup complete ===============================================
+04:48:28 PM.767: All scene data cleared
+04:48:28 PM.767: ------------------------------------------------
+04:48:28 PM.771: pulse-input: Server name: 'pulseaudio 14.2'
+04:48:28 PM.771: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+04:48:28 PM.771: pulse-input: Started recording from 'alsa_output.usb-Kingston_HyperX_Virtual_Surround_Sound_00000000-00.analog-stereo.monitor'
+04:48:28 PM.773: pulse-am: Prevented feedback-loop in 'default'
+04:48:28 PM.773: [Loaded global audio device]: 'Desktop Audio'
+04:48:28 PM.773:     - monitoring: monitor and output
+04:48:28 PM.773: pulse-input: Server name: 'pulseaudio 14.2'
+04:48:28 PM.773: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+04:48:28 PM.773: pulse-input: Started recording from 'alsa_input.usb-Kingston_HyperX_Virtual_Surround_Sound_00000000-00.analog-stereo'
+04:48:28 PM.776: pulse-am: Server name: 'pulseaudio 14.2'
+04:48:28 PM.776: pulse-am: Audio format: s16le, 44100 Hz, 2 channels
+04:48:28 PM.776: pulse-am: Started Monitoring in 'alsa_output.usb-Kingston_HyperX_Virtual_Surround_Sound_00000000-00.analog-stereo.monitor'
+04:48:28 PM.776: [Loaded global audio device]: 'Mic/Aux'
+04:48:28 PM.776:     - monitoring: monitor and output
+04:48:28 PM.777: xshm-input: Geometry 1680x1050 @ 1920,0
+04:48:28 PM.778: xshm-input: Geometry 1680x1050 @ 1920,0
+04:48:28 PM.780: xshm-input: Geometry 1920x1080 @ 0,0
+04:48:28 PM.780: v4l2-input: Start capture from /dev/video1
+04:48:28 PM.780: v4l2-input: Unable to open device
+04:48:28 PM.780: v4l2-input: Initialization failed
+04:48:28 PM.780: pulse-input: Server name: 'pulseaudio 14.2'
+04:48:28 PM.780: pulse-input: An error occurred while getting the source info!
+04:48:28 PM.780: v4l2-input: Start capture from /dev/video1
+04:48:28 PM.780: v4l2-input: Unable to open device
+04:48:28 PM.780: v4l2-input: Initialization failed
+04:48:28 PM.781: pulse-input: Server name: 'pulseaudio 14.2'
+04:48:28 PM.781: pulse-input: An error occurred while getting the source info!
+04:48:28 PM.782: pulse-am: Server name: 'pulseaudio 14.2'
+04:48:28 PM.782: pulse-am: Audio format: s16le, 44100 Hz, 2 channels
+04:48:28 PM.782: pulse-am: Started Monitoring in 'alsa_output.usb-Kingston_HyperX_Virtual_Surround_Sound_00000000-00.analog-stereo.monitor'
+04:48:28 PM.782: Switched to scene 'School'
+04:48:28 PM.782: ------------------------------------------------
+04:48:28 PM.782: Loaded scenes:
+04:48:28 PM.782: - scene 'Primary':
+04:48:28 PM.782:     - source: 'Screen Capture (XSHM)' (xshm_input)
+04:48:28 PM.782: - scene 'Secondary':
+04:48:28 PM.782:     - source: 'Screen Capture (XSHM) 2' (xshm_input)
+04:48:28 PM.782: - scene 'School':
+04:48:28 PM.782:     - source: 'Screen Capture (XSHM) 3' (xshm_input)
+04:48:28 PM.782: - scene 'VHS':
+04:48:28 PM.782:     - source: 'Audio Input Capture (PulseAudio)' (pulse_input_capture)
+04:48:28 PM.782:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+04:48:28 PM.782: - scene 'N64':
+04:48:28 PM.782:     - source: 'Audio Input Capture (PulseAudio) 2' (pulse_input_capture)
+04:48:28 PM.782:         - monitoring: monitor and output
+04:48:28 PM.782:     - source: 'Video Capture Device (V4L2) 2' (v4l2_input)
+04:48:28 PM.782: - scene 'Mupen':
+04:48:28 PM.782:     - source: 'Window Capture (Xcomposite)' (xcomposite_input)
+04:48:28 PM.782: ------------------------------------------------
+04:48:29 PM.337: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+04:48:29 PM.337: 
+04:48:30 PM.425: User switched to scene 'Secondary'
+04:48:32 PM.763: ---------------------------------
+04:48:32 PM.763: video settings reset:
+04:48:32 PM.763: 	base resolution:   1920x1080
+04:48:32 PM.763: 	output resolution: 1920x1080
+04:48:32 PM.763: 	downscale filter:  Lanczos
+04:48:32 PM.763: 	fps:               60/1
+04:48:32 PM.763: 	format:            NV12
+04:48:32 PM.763: 	YUV mode:          709/Partial
+04:48:32 PM.763: NV12 texture support not available
+04:48:32 PM.765: pulse-am: Server name: 'pulseaudio 14.2'
+04:48:32 PM.765: pulse-am: An error occurred while getting the source info!
+04:48:32 PM.765: pulse-am: Stopped Monitoring in 'alsa_output.usb-Kingston_HyperX_Virtual_Surround_Sound_00000000-00.analog-stereo.monitor'
+04:48:32 PM.765: pulse-am: Got 348 packets with 153084 frames
+04:48:32 PM.765: pulse-am: Server name: 'pulseaudio 14.2'
+04:48:32 PM.765: pulse-am: An error occurred while getting the source info!
+04:48:32 PM.765: pulse-am: Stopped Monitoring in 'alsa_output.usb-Kingston_HyperX_Virtual_Surround_Sound_00000000-00.analog-stereo.monitor'
+04:48:32 PM.765: pulse-am: Got 0 packets with 0 frames
+04:48:32 PM.766: pulse-am: Server name: 'pulseaudio 14.2'
+04:48:32 PM.766: pulse-am: An error occurred while getting the source info!
+04:48:32 PM.766: Audio monitoring device:
+04:48:32 PM.766: 	name: Monitor of Null Output
+04:48:32 PM.766: 	id: OBS.monitor
+04:48:32 PM.766: Switched to profile 'Main' (Main)
+04:48:32 PM.766: ------------------------------------------------
+04:52:23 PM.416: User switched to scene 'School'
+04:52:48 PM.700: ---------------------------------
+04:52:48 PM.700: video settings reset:
+04:52:48 PM.700: 	base resolution:   1440x1080
+04:52:48 PM.700: 	output resolution: 640x480
+04:52:48 PM.700: 	downscale filter:  Lanczos
+04:52:48 PM.700: 	fps:               15/1
+04:52:48 PM.700: 	format:            NV12
+04:52:48 PM.700: 	YUV mode:          709/Partial
+04:52:48 PM.701: NV12 texture support not available
+04:52:48 PM.703: pulse-am: Prevented feedback-loop in 'default'

@@ -18,7 +18,9 @@ alias \
 	make='make -j$(nproc)' \
 	ffmpeg='ffmpeg -hide_banner' \
 	mpvm='mpv --profile=movie' \
-	sshpi='ssh pi@10.0.0.174'
+	sshpi='ssh pi@10.0.0.174' \
+	sshaz='TERM=rxvt && ssh jad@20.55.40.249' \
+	ytmp3="youtube-dl -f bestaudio -x --exec 'ffmpeg -i {} -vn "{}.mp3"'"
 
 # colours
 alias \
@@ -33,4 +35,4 @@ alias \
 	insta='instaloader --stories --highlights --igtv --fast-update' \
 	gp='git add . && git commit -m "$(date +%Y%m%d-%H%M%S)" && git push -u origin master' \
 	sl='rm -f config.h; sudo make clean install' \
-	pullpi='rclone copy pi:/media/ext/lives . -P'
+	pullpi='rclone copy pi:/media/ext/lives . -P && rm *.json'

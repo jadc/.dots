@@ -7,7 +7,7 @@ export AWT_TOOLKIT=MToolkit
 wmname LG3D
 
 # setup scripts
-$HOME/.dots/scripts/setup/xrandr.sh
+$HOME/.dots/scripts/setup/xrandr.sh &
 $HOME/.dots/scripts/setup/autostart.sh &
 
 # wm
