@@ -96,6 +96,8 @@ autocmd BufWritePost sxhkdrc silent! execute "!pkill -USR1 -x sxhkd"
 "- displayed line keys
 nnoremap j gj
 nnoremap k gk
+nnoremap $ g$
+nnoremap 0 g0
 
 " exclusives
 "- latex itemize

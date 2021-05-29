@@ -1,0 +1,11 @@
+#!/bin/sh
+echo -n Scanning...
+scanimage \
+    --device 'airscan:w0:HP ENVY 5000 series' \
+    --resolution 1200 \
+    --format "${1##*.}" \
+    --output-file "$1" \
+    && echo done
+
+#4in = 101.6mm
+#6in = 152.4mm

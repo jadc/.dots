@@ -1,0 +1,5 @@
+#!/bin/sh
+MOUSE=$(lsusb | grep Mouse)
+BUS=$(echo $MOUSE | awk '{print $2}')
+DEV=$(echo $MOUSE | awk '{print $4}' | sed 's/.$//')
+usbreset /dev/bus/usb/$BUS/$DEV

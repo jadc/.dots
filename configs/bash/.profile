@@ -15,7 +15,7 @@ export VISUAL=$EDITOR
 export TERMINAL='st'
 export BROWSER='chromium'
 export READER='zathura'
-export SHELL='bash'
+export SHELL='/bin/bash'
 
 # Source .bashrc
 [ -f $HOME/.bashrc ] && source $HOME/.bashrc
