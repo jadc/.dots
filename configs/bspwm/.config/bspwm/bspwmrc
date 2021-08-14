@@ -2,7 +2,7 @@
 sxhkd &
 
 # normal
-bspc monitor DP-4 -d I II III IV V VI
+bspc monitor DP-2 -d I II III IV V VI
 bspc monitor HDMI-0 -d VII VIII IX
 # kvm
 #bspc monitor HDMI3 -d I II III IV V VI

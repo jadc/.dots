@@ -4,9 +4,9 @@
 alias \
 	v='$EDITOR' \
 	p='paru' \
-    yt='youtube-dl' \
 	music='ncmpcpp' \
-	py='python'
+	py='python' \
+	yt='yt-dlp'
 
 # flags
 alias \
@@ -20,7 +20,6 @@ alias \
 	mpvm='mpv --profile=movie' \
 	sshpi='ssh pi@10.0.0.174' \
 	sshaz='TERM=rxvt && ssh jad@20.55.40.249' \
-	ytmp3="youtube-dl -f bestaudio -x --exec 'ffmpeg -i {} -vn "{}.mp3"'" \
 	ag="ag --pager='less -XFR'"
 
 # colours
@@ -36,4 +35,5 @@ alias \
 	insta='instaloader --stories --highlights --igtv --fast-update' \
 	gp='git add . && git commit -m "$(date +%Y%m%d-%H%M%S)" && git push -u origin master' \
 	sl='rm -f config.h; sudo make clean install' \
-	pullpi='rclone copy pi:/media/ext/lives . -P && rm *.json' 
+	pullpi='rclone copy pi:/media/ext/lives/uploaded /media/storage/music/vault/media/community/lives -P && rm *.json' \
+	wavtoflac='flac --best --delete-input-file -e -p -V -f *.wav'

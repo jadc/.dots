@@ -2,9 +2,12 @@
 xsetroot -cursor_name left_ptr &
 sudo modprobe -r pcspkr
 
+# wallpaper
+$HOME/.fehbg &
+
 # java fixes
 export AWT_TOOLKIT=MToolkit
-wmname LG3D
+wmname LG3D &
 
 # setup scripts
 $HOME/.dots/scripts/setup/xrandr.sh &
