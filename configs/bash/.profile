@@ -6,13 +6,14 @@
 export XDG_CONFIG_HOME="$HOME/.config"
 
 # Environmental Variables
-export SCRIPTS=$HOME/.dots/scripts
+export DOTS=$HOME/.dots
 export PATH=$SCRIPTS/path:$PATH
+
 export TZ='Canada/Mountain'
 export WM='bspwm'
-export EDITOR='/usr/bin/nvim'
+export EDITOR='nvim'
 export VISUAL=$EDITOR
-export TERMINAL='st'
+export TERMINAL='kitty'
 export BROWSER='chromium'
 export READER='zathura'
 export SHELL='/bin/bash'

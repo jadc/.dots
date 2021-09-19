@@ -30,10 +30,9 @@ alias \
 
 # long
 alias \
-	7zs='7z a -t7z -mx=9 -mfb=273 -ms -md=31 -myx=9 -mtm=- -mmt -mmtf -md=1536m -mmf=bt3 -mmc=10000 -mpb=0 -mlc=0' \
 	cl="curl -F 'clbin=<-' https://clbin.com" \
 	insta='instaloader --stories --highlights --igtv --fast-update' \
 	gp='git add . && git commit -m "$(date +%Y%m%d-%H%M%S)" && git push -u origin master' \
-	sl='rm -f config.h; sudo make clean install' \
-	pullpi='rclone copy pi:/media/ext/lives/uploaded /media/storage/music/vault/media/community/lives -P && rm *.json' \
+	pullpi='rclone copy pi:/media/ext/lives /media/storage/music/vault/media/community/lives -P' \
 	wavtoflac='flac --best --delete-input-file -e -p -V -f *.wav'
+   #sl='rm -f config.h; sudo make clean install' \
