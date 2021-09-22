@@ -23,5 +23,5 @@ export SHELL='/bin/bash'
 
 # Start X
 if systemctl -q is-active graphical.target && [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]] && [ ! -f "$HOME/nox" ]; then
-  exec startx
+  exec startx > /dev/null 2>&1
 fi

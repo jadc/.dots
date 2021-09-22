@@ -18,8 +18,8 @@ alias \
 	make='make -j$(nproc)' \
 	ffmpeg='ffmpeg -hide_banner' \
 	mpvm='mpv --profile=movie' \
-	sshpi='ssh pi@10.0.0.174' \
-	sshaz='TERM=rxvt && ssh jad@20.55.40.249' \
+	sshpi='TERM=xterm-color ssh pi@10.0.0.174' \
+	sshaz='TERM=rxvt ssh jad@20.55.40.249' \
 	ag="ag --pager='less -XFR'"
 
 # colours

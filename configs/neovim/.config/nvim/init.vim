@@ -10,6 +10,7 @@ let g:vimtex_view_method = 'zathura'
 
 "" colorizer
 let g:colorizer_auto_filetype='css,html,conf,h'
+let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 
 " sin free
 map <up> <nop>
