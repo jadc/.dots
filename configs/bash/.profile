@@ -7,7 +7,7 @@ export XDG_CONFIG_HOME="$HOME/.config"
 
 # Environmental Variables
 export DOTS=$HOME/.dots
-export PATH=$SCRIPTS/path:$PATH
+export PATH=$DOTS/scripts/path:$PATH
 
 export TZ='Canada/Mountain'
 export WM='bspwm'

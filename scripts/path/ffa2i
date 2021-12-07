@@ -1,5 +1,5 @@
 #!/bin/sh
-IMG='/media/storage/archive/online/pictures/graphics/music/generic.jpg'
+IMG='/drives/data/archive/online/pictures/graphics/music/generic.jpg'
 NAME=$(echo "$1" | awk -F'.' '{print $1}')
 ffmpeg -i "$1" \
     -loop 1 \

@@ -5,7 +5,7 @@ alias \
 	v='$EDITOR' \
 	p='paru' \
 	music='ncmpcpp' \
-	py='python' \
+	py='python3' \
 	yt='yt-dlp'
 
 # flags
@@ -17,10 +17,12 @@ alias \
 	mkdir='mkdir -pv' \
 	make='make -j$(nproc)' \
 	ffmpeg='ffmpeg -hide_banner' \
+	ffprobe='ffprobe -hide_banner' \
 	mpvm='mpv --profile=movie' \
-	sshpi='TERM=xterm-color ssh pi@10.0.0.174' \
+	sshpi='TERM=xterm-color ssh pi@192.168.1.77' \
 	sshaz='TERM=rxvt ssh jad@20.55.40.249' \
-	ag="ag --pager='less -XFR'"
+	ag="ag --pager='less -XFR'" \
+	discord='discord --no-sandbox'
 
 # colours
 alias \
@@ -34,5 +36,6 @@ alias \
 	insta='instaloader --stories --highlights --igtv --fast-update' \
 	gp='git add . && git commit -m "$(date +%Y%m%d-%H%M%S)" && git push -u origin master' \
 	pullpi='rclone copy pi:/media/ext/lives /media/storage/music/vault/media/community/lives -P' \
-	wavtoflac='flac --best --delete-input-file -e -p -V -f *.wav'
+	wavtoflac='flac --best --delete-input-file -e -p -V -f --keep-foreign-metadata *.wav' \
+	texview='latexmk -pdf -pvc *.tex'
    #sl='rm -f config.h; sudo make clean install' \

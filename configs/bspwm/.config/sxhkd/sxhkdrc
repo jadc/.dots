@@ -140,3 +140,10 @@ Next
 # XF86AudioMute
 ctrl + Next
     amixer sset Master toggle
+
+# mouse side buttons
+KP_Multiply
+    xdotool click 1 &
+
+KP_Divide
+    xdotool click 3 &
