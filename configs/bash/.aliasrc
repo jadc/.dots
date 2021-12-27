@@ -19,6 +19,7 @@ alias \
 	ffmpeg='ffmpeg -hide_banner' \
 	ffprobe='ffprobe -hide_banner' \
 	mpvm='mpv --profile=movie' \
+	ssh='TERM=xterm-color ssh' \
 	sshpi='TERM=xterm-color ssh pi@192.168.1.77' \
 	sshaz='TERM=rxvt ssh jad@20.55.40.249' \
 	ag="ag --pager='less -XFR'" \
