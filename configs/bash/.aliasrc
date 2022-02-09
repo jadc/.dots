@@ -21,22 +21,23 @@ alias \
 	mpvm='mpv --profile=movie' \
 	ssh='TERM=xterm-color ssh' \
 	sshpi='TERM=xterm-color ssh pi@192.168.1.77' \
-	sshaz='TERM=rxvt ssh jad@20.55.40.249' \
 	ag="ag --pager='less -XFR'" \
 	discord='discord --no-sandbox'
 
-# colours
+## colors
 alias \
 	ls="ls -hN --color=auto --group-directories-first" \
 	grep="grep --color=auto" \
+	fgrep='fgrep --color=auto' \
+	egrep='egrep --color=auto' \
 	diff="diff --color=auto"
 
-# long
+## long
 alias \
+    7zs='7z a -t7z -mx=9 -mfb=273 -ms -md=31 -myx=9 -mtm=- -mmt -mmtf -md=1536m -mmf=bt3 -mmc=10000 -mpb=0 -mlc=0' \
 	cl="curl -F 'clbin=<-' https://clbin.com" \
-	insta='instaloader --stories --highlights --igtv --fast-update' \
 	gp='git add . && git commit -m "$(date +%Y%m%d-%H%M%S)" && git push -u origin master' \
-	pullpi='rclone copy pi:/media/ext/lives /media/storage/music/vault/media/community/lives -P' \
 	wavtoflac='flac --best --delete-input-file -e -p -V -f --keep-foreign-metadata *.wav' \
-	texview='latexmk -pdf -pvc *.tex'
+	texview='latexmk -pdf -pvc *.tex' \
+	sharedir='python -m http.server 25566'
    #sl='rm -f config.h; sudo make clean install' \

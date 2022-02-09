@@ -56,3 +56,8 @@ echo -e "$B,o'    'o,  ${C}dt${NC}  $(date '+%b. %d' | awk '{print tolower($0)}'
 echo -e "$B'O $G.  .$B O'  ${C}up${NC}  ${hrs}h ${min}m"
 echo -e "$B  ·____·    ${C}pk${NC}  $(pacman -Q | wc -l)"
 echo ""
+
+
+# BEGIN_KITTY_SHELL_INTEGRATION
+if test -n "$KITTY_INSTALLATION_DIR" -a -e "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; then source "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; fi
+# END_KITTY_SHELL_INTEGRATION

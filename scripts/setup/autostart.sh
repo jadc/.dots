@@ -1,10 +1,9 @@
 #!/bin/sh
 
 # Offline
-#/usr/bin/polkit-dumb-agent &
+/usr/bin/nice -n19 /home/jad/.dots/scripts/setup/mouse.sh &
 /usr/lib/mate-polkit/polkit-mate-authentication-agent-1 &
-#scream -i virbr0 &
-#sleep 5 && polybar 2nd
+/usr/bin/conky &
 
 # Online
 chromium &

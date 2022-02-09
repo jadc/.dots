@@ -1,6 +1,6 @@
 #!/bin/sh
 TEXT="$(date +"%-I:%M")"
-FONT=Google-Sans-Bold
+FONT='Google-Sans-Regular'
 
 convert \
     -size 1920x1080 -background black -fill white \

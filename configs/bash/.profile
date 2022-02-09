@@ -7,7 +7,8 @@ export XDG_CONFIG_HOME="$HOME/.config"
 
 # Environmental Variables
 export DOTS=$HOME/.dots
-export PATH=$DOTS/scripts/path:$PATH
+export SCRIPTS=$DOTS/scripts
+export PATH=$SCRIPTS/path:$PATH
 
 export TZ='Canada/Mountain'
 export WM='bspwm'
@@ -22,6 +23,7 @@ export SHELL='/bin/bash'
 [ -f $HOME/.bashrc ] && source $HOME/.bashrc
 
 # Start X
-if systemctl -q is-active graphical.target && [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]] && [ ! -f "$HOME/nox" ]; then
+#if systemctl -q is-active graphical.target && [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]] && [ ! -f "$HOME/nox" ]; then
+if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ] && [ ! -f "$HOME/nox" ]; then
   exec startx > /dev/null 2>&1
 fi

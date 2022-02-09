@@ -1,0 +1,2 @@
+#!/bin/sh
+webtorrent "$1" -o /tmp/supertmp/webtorrent --mpv --player-args="--profile=movie"

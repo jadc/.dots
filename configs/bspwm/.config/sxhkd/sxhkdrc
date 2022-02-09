@@ -11,8 +11,8 @@ super + @space
 	rofi -show drun -show-icons -font "Fira Code 10"
 
 # make sxhkd reload its configuration files:
-#super + Escape
-#	pkill -USR1 -x sxhkd
+super + Escape
+	pkill -USR1 -x sxhkd
 
 #
 # bspwm hotkeys
@@ -140,10 +140,3 @@ Next
 # XF86AudioMute
 ctrl + Next
     amixer sset Master toggle
-
-# mouse side buttons
-KP_Multiply
-    xdotool click 1 &
-
-KP_Divide
-    xdotool click 3 &

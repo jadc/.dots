@@ -1,8 +1,12 @@
 #! /bin/sh
 sxhkd &
 
+# java fix
+export _JAVA_AWT_WM_NONREPARENTING=1
+/usr/bin/wmname LG3D
+
 # normal
-bspc monitor DP-2 -d I II III IV V VI
+bspc monitor DP-4 -d I II III IV V VI
 bspc monitor HDMI-0 -d VII VIII IX
 # kvm
 #bspc monitor HDMI3 -d I II III IV V VI
@@ -25,3 +29,4 @@ bspc rule -a discord desktop='^9' state=fullscreen focus=off
 bspc rule -a obs state=floating
 bspc rule -a Steam state=floating
 bspc rule -a parallel-launcher state=floating
+bspc rule -a zoom state=floating
