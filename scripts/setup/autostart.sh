@@ -11,3 +11,4 @@ while ! timeout 0.2 ping -c 1 -n 8.8.8.8 &> /dev/null; do
     false
 done
 discord & 
+discord-canary & 

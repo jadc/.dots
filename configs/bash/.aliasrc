@@ -22,7 +22,7 @@ alias \
 	ssh='TERM=xterm-color ssh' \
 	sshpi='TERM=xterm-color ssh pi@192.168.1.77' \
 	ag="ag --pager='less -XFR'" \
-	discord='discord --no-sandbox'
+	discord='discord-canary --no-sandbox'
 
 ## colors
 alias \

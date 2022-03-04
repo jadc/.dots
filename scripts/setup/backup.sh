@@ -1,5 +1,5 @@
 #!/bin/sh
-DRIVE='/dev/sdd2'
+DRIVE='/dev/sdc2'
 MOUNT_POINT='/media/backup'
 
 if ! grep -qs "$MOUNT_POINT" /proc/mounts; then
@@ -7,4 +7,4 @@ if ! grep -qs "$MOUNT_POINT" /proc/mounts; then
     sudo /usr/bin/mount $DRIVE /media/backup
 fi
 
-/usr/bin/rsync -avhP --no-compress "/drives/data/archive" "$MOUNT_POINT"
+sudo /usr/bin/rsync -avhP --no-compress "/drives/data/archive" "$MOUNT_POINT" --delete && echo 'Unmounting in 10 seconds' && sleep 10 && sudo umount $DRIVE
