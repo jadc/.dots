@@ -1,7 +1,12 @@
 #!/bin/sh
 ROOT='c0d4881e-c7d7-0644-8a9d-f0eb60a6a076'
 SWAP='82ce2fb4-a2ef-7140-876c-ea2285784302'
-FLAG='quiet loglevel=3 rd.systemd.show_status=auto nowatchdog nomce rd.udev.log_level=3 mitigations=off random.trust_cpu=on nvidia-drm.modeset=1 fsck.mode=skip libahci.ignore_sss=1 i915.modeset=1 intel_iommu=on'
+
+# Kernel flags
+QUIET='quiet loglevel=3 rd.systemd.show_status=auto rd.udev.log_level=3'
+PERFORMANCE='nowatchdog nomce mitigations=off random.trust_cpu=on fsck.mode=skip libahci.ignore_sss=1'
+KVM='nvidia-drm.modeset=1 i915.modeset=1 intel_iommu=on vfio-pci.ids=10de:1e84,10de:10f8'
+FLAG="$QUIET $PERFORMANCE $KVM"
 
 sudo efibootmgr \
     --disk /dev/sdb --part 1 \
