@@ -5,7 +5,7 @@ SWAP='82ce2fb4-a2ef-7140-876c-ea2285784302'
 # Kernel flags
 QUIET='quiet loglevel=3 rd.systemd.show_status=auto rd.udev.log_level=3'
 PERFORMANCE='nowatchdog nomce mitigations=off random.trust_cpu=on fsck.mode=skip libahci.ignore_sss=1'
-KVM='nvidia-drm.modeset=1 i915.modeset=1 intel_iommu=on vfio-pci.ids=10de:1e84,10de:10f8'
+KVM='nvidia-drm.modeset=1 i915.modeset=1 intel_iommu=on vfio-pci.ids=10de:1e84,10de:10f8,10de:1ad9'
 FLAG="$QUIET $PERFORMANCE $KVM"
 
 sudo efibootmgr \
