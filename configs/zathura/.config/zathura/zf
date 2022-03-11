@@ -1,0 +1,2 @@
+#!/bin/sh
+zathura "$1" -f "$(xclip -o)"

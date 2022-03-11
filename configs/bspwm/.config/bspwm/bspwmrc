@@ -12,7 +12,7 @@ export _JAVA_AWT_WM_NONREPARENTING=1
 #bspc monitor HDMI3 -d I II III IV V VI
 #bspc monitor VGA1 -d VII VIII IX
 # idk
-bspc monitor DP1 -d I II III IV V VI
+bspc monitor HDMI3 -d I II III IV V VI
 bspc monitor HDMI1 -d VII VIII IX
 
 bspc config border_width         0

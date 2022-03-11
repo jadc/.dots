@@ -1,0 +1,1 @@
+map x feedkeys ":exec /home/jad/.dots/configs/zathura/.config/zathura/zf $FILE<Return>"
