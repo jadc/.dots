@@ -131,12 +131,12 @@ Print
 # volume controls
 #XF86AudioRaiseVolume
 Prior
-    amixer sset Speaker on && amixer sset Speaker 2%+
+    amixer sset Master on && amixer sset Master 2%+
 
 #XF86AudioLowerVolume 
 Next
-    amixer sset Speaker on && amixer sset Speaker 2%-
+    amixer sset Master on && amixer sset Master 2%-
 
 # XF86AudioMute
 ctrl + Next
-    amixer sset Speaker toggle
+    amixer sset Master toggle

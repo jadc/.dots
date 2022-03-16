@@ -4,7 +4,6 @@
 alias \
 	v='$EDITOR' \
 	p='paru' \
-	music='ncmpcpp' \
 	py='python3' \
 	yt='yt-dlp'
 
@@ -19,10 +18,8 @@ alias \
 	ffmpeg='ffmpeg -hide_banner' \
 	ffprobe='ffprobe -hide_banner' \
 	mpvm='mpv --profile=movie' \
-	ssh='TERM=xterm-color ssh' \
-	sshpi='TERM=xterm-color ssh pi@192.168.1.77' \
-	ag="ag --pager='less -XFR'" \
-	discord='discord-canary --no-sandbox'
+	ssh='TERM=xterm-color ssh'
+	ag="ag --pager='less -XFR'"
 
 ## colors
 alias \
