@@ -10,7 +10,6 @@ export VISUAL=$EDITOR
 export TERMINAL='kitty'
 export BROWSER='chromium'
 export READER='zathura'
-export SHELL='/usr/bin/zsh'
 
 # XDG
 export XDG_CONFIG_HOME="$HOME/.config"
