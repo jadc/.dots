@@ -1,0 +1,8 @@
+[Unit]
+Description=Clears trash bin
+
+[Service]
+ExecStart=rm -rf /drives/data/.trash/*
+
+[Install]
+WantedBy=multi-user.target

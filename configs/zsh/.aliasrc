@@ -9,7 +9,6 @@ alias \
 
 # flags
 alias \
-    r=". ranger" \
 	du='du -h' \
 	cp='cp -ivp' \
 	mv='mv -iv' \
@@ -18,8 +17,9 @@ alias \
 	ffmpeg='ffmpeg -hide_banner' \
 	ffprobe='ffprobe -hide_banner' \
 	mpvm='mpv --profile=movie' \
-	ssh='TERM=xterm-color ssh'
-	ag="ag --pager='less -XFR'"
+	ssh='TERM=xterm-color ssh' \
+	ag="ag --pager='less -XFR'" \
+	vidir='vidir -v'
 
 ## colors
 alias \
