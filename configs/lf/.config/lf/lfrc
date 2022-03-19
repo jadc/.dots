@@ -36,13 +36,6 @@ cmd open ${{
 # Rename
 cmd rename %[ -e $1 ] && printf "File exists" || mv $f $1
 
-# Trash
-cmd trash ${{
-	set -f
-    mkdir -p "$TRASH"
-	mv $fx $TRASH
-}}
-
 # Extract: requires 'atools' package
 cmd extract ${{
 	set -f
@@ -62,7 +55,6 @@ map <enter> open
 map gh
 map g top
 map r push :rename<space>
-map d trash
 map D delete
 
 # sorting
