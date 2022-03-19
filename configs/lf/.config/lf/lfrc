@@ -43,15 +43,6 @@ cmd trash ${{
 	mv $fx $TRASH
 }}
 
-# Delete
-cmd delete ${{
-	set -f
-    printf "%s\n\t" "$fx"
-	printf "Delete forever? [y/N]"
-	read ans
-	[ $ans = "y" ] && rm -rf -- $fx
-}}
-
 # Extract: requires 'atools' package
 cmd extract ${{
 	set -f
@@ -73,3 +64,17 @@ map g top
 map r push :rename<space>
 map d trash
 map D delete
+
+# sorting
+map O set reverse!
+map oo :{{
+    set sortby natural
+}}
+map om :{{
+    set reverse on
+    set sortby time
+}}
+map os :{{
+    set reverse on
+    set sortby size
+}}
