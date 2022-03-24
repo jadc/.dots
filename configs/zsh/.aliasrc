@@ -5,7 +5,8 @@ alias \
 	v='$EDITOR' \
 	p='paru' \
 	py='python3' \
-	yt='yt-dlp'
+	yt='yt-dlp' \
+	clear='tput reset'
 
 # flags
 alias \

@@ -2,29 +2,22 @@
 zstyle :compinstall filename '$HOME/.zshrc'
 
 ## History
-HISTFILE=$HOME/.histfile
+HISTFILE=$HOME/.cache/zsh/history
 HISTSIZE=100000000
 SAVEHIST=100000000
+setopt HIST_IGNORE_SPACE
 
-## Remove cringe
+# Misc
 unsetopt autocd
 unsetopt beep
-
-## Vim mode
-bindkey -v
-
-## Synax highlighting 
-## (https://archlinux.org/packages/community/any/zsh-syntax-highlighting)
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+bindkey -v       # Vim mode
+stty stop undef  # Disable ctrl+s freezing term
 
 ## Autocomplete
 zstyle ':completion:*' completer _complete
 zstyle ':completion:*' matcher-list '' 'm:{[:lower:][:upper:]}={[:upper:][:lower:]}' '+l:|=* r:|=*'
 autoload -Uz compinit
 compinit
-
-# Sources
-[ -f ~/.aliasrc ] && source ~/.aliasrc
 
 # LF stay in directory
 lfcd () {
@@ -36,7 +29,11 @@ lfcd () {
         [ -d "$dir" ] && [ "$dir" != "$(pwd)" ] && cd "$dir"
     fi
 }
-bindkey -s '^r' 'lfcd\n'
+
+# Binds
+bindkey -s '^r' ' lfcd\n'
+bindkey -s '^f' ' cd "$(dirname "$(fzf)")"\n'
+bindkey -s '^l' ' tput reset\n'
 
 # Aesthetics
 ## Requires lscolors-git
@@ -45,3 +42,12 @@ source /usr/share/LS_COLORS/dircolors.sh
 ## Prompt
 PS1='%F{black}%1~%f %(!.%F{red}.%F{blue})$%f '
 fetch
+
+# Sources
+[ -f ~/.aliasrc ] && source ~/.aliasrc
+
+## Synax highlighting 
+## (https://archlinux.org/packages/community/any/zsh-syntax-highlighting)
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+

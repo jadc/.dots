@@ -3,6 +3,7 @@
 # Offline
 #/usr/bin/nice -n19 /home/jad/.dots/scripts/setup/mouse.sh &
 /usr/lib/mate-polkit/polkit-mate-authentication-agent-1 &
+/usr/bin/udiskie -NT &
 /usr/bin/conky &
 
 # Online

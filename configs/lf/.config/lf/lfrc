@@ -48,6 +48,9 @@ cmd extract ${{
 # Ranger habits die hard
 cmd bulkrename $vidir -v $fx
 
+# Shuffle current directory
+cmd shuffle $mpv --shuffle .
+
 ###########
 ## Binds ##
 ###########
