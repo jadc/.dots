@@ -14,6 +14,12 @@ export READER='zathura'
 # Misc
 export XDG_CONFIG_HOME="$HOME/.config"
 
+# Config
+export NO_AT_BRIDGE=1
+
 # IPs
 export JET='192.168.1.111'
 export PI='192.168.1.77'
+
+# Shortcuts
+export PLEX="jad@$JET:/hdd/media/"

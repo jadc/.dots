@@ -2,7 +2,7 @@
 zstyle :compinstall filename '$HOME/.zshrc'
 
 ## History
-HISTFILE=$HOME/.cache/zsh/history
+HISTFILE=$HOME/.zshhistory
 HISTSIZE=100000000
 SAVEHIST=100000000
 setopt HIST_IGNORE_SPACE
@@ -10,6 +10,7 @@ setopt HIST_IGNORE_SPACE
 # Misc
 unsetopt autocd
 unsetopt beep
+unsetopt nomatch
 bindkey -v       # Vim mode
 stty stop undef  # Disable ctrl+s freezing term
 
@@ -33,7 +34,7 @@ lfcd () {
 # Binds
 bindkey -s '^r' ' lfcd\n'
 bindkey -s '^f' ' cd "$(dirname "$(fzf)")"\n'
-bindkey -s '^l' ' tput reset\n'
+bindkey -s '^t' ' $TERMINAL & disown\n'
 
 # Aesthetics
 ## Requires lscolors-git

@@ -4,9 +4,11 @@
 alias \
 	v='$EDITOR' \
 	p='paru' \
+	pp='paru -Syu --noconfirm' \
 	py='python3' \
 	yt='yt-dlp' \
-	clear='tput reset'
+	clear='tput reset' \
+	mycron='sudo crontab -u $USER -e'
 
 # flags
 alias \

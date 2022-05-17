@@ -4,7 +4,7 @@ ROOT='afe7804d-9b26-4524-9177-5758b22d064f'
 # Kernel flags
 QUIET='quiet loglevel=3 rd.systemd.show_status=auto rd.udev.log_level=3'
 PERFORMANCE='nowatchdog nomce mitigations=off random.trust_cpu=on fsck.mode=skip libahci.ignore_sss=1'
-VIDIA='nvidia-drm.modeset=1'
+NVIDIA='nvidia-drm.modeset=1'
 #INTEL='i915.enable_fbc=1 i915.fastboot=1 i915.modeset=1'
 #KVM='intel_iommu=on vfio-pci.ids=10de:1e84,10de:10f8,10de:1ad8,10de:1ad9'
 FLAG="$QUIET $PERFORMANCE $NVIDIA"

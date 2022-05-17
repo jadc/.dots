@@ -20,21 +20,21 @@ cmd on-quit $stpvimg --end $id
 cmd open ${{
     case $(file --mime-type "$(readlink -f $f)" -b) in
 	application/vnd.openxmlformats-officedocument.spreadsheetml.sheet) localc $fx ;;
-	image/vnd.djvu|application/pdf|application/octet-stream|application/postscript) setsid -f zathura $fx >/dev/null 2>&1 ;;
+    image/vnd.djvu|application/pdf|application/octet-stream|application/postscript) setsid -f zaread $fx >/dev/null 2>&1 ;;
         text/*|application/json|inode/x-empty) $EDITOR $fx;;
 	image/x-xcf) setsid -f gimp $f >/dev/null 2>&1 ;;
 	image/svg+xml) display -- $f ;;
 	image/*) setsid -f sxiv $f -a >/dev/null 2>&1 ;;
 	audio/*) mpv --audio-display=no $f ;;
 	video/*) setsid -f mpv $f -quiet >/dev/null 2>&1 ;;
-	application/pdf|application/vnd*|application/epub*) setsid -f zathura $fx >/dev/null 2>&1 ;;
+	application/pdf|application/vnd*|application/epub*) setsid -f zaread $fx >/dev/null 2>&1 ;;
 	application/pgp-encrypted) $EDITOR $fx ;;
         *) for f in $fx; do setsid -f $OPENER $f >/dev/null 2>&1; done;;
     esac
 }}
 
 # Rename
-cmd rename %[ -e $1 ] && printf "File exists" || mv $f $1
+cmd rename %[ -e "$1" ] && printf "File exists" || mv $f "$1"
 
 # Extract: requires 'atools' package
 cmd extract ${{
@@ -57,8 +57,9 @@ cmd shuffle $mpv --shuffle .
 map <enter> open
 map gh
 map g top
-map r push :rename<space>
-map D delete
+#map r push :rename<space>"$fx"
+map r $vidir -v $fx
+map D delete $fx
 
 # sorting
 map O set reverse!
