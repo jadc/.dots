@@ -19,7 +19,9 @@ export NO_AT_BRIDGE=1
 
 # IPs
 export JET='192.168.1.111'
-export PI='192.168.1.77'
+export PI='192.168.1.112'
+export WPI='192.168.1.113'
+export OR='192.9.240.136'
 
 # Shortcuts
 export PLEX="jad@$JET:/hdd/media/"

@@ -8,7 +8,11 @@ alias \
 	py='python3' \
 	yt='yt-dlp' \
 	clear='tput reset' \
-	mycron='sudo crontab -u $USER -e'
+	mycron='sudo crontab -u $USER -e' \
+	ig='instaloader --login=majideyes' \
+	myip='curl ifconfig.me' \
+	hss='hugo server --noHTTPCache' \
+	condainit='[ -f /opt/miniconda3/etc/profile.d/conda.sh ] && source /opt/miniconda3/etc/profile.d/conda.sh'
 
 # flags
 alias \
@@ -22,7 +26,8 @@ alias \
 	mpvm='mpv --profile=movie' \
 	ssh='TERM=xterm-color ssh' \
 	ag="ag --pager='less -XFR'" \
-	vidir='vidir -v'
+	vidir='vidir -v' \
+	ytsub='yt-dlp --sub-lang en --write-auto-sub --skip-download'
 
 ## colors
 alias \
@@ -36,7 +41,7 @@ alias \
 alias \
     7zs='7z a -t7z -mx=9 -mfb=273 -ms -md=31 -myx=9 -mtm=- -mmt -mmtf -md=1536m -mmf=bt3 -mmc=10000 -mpb=0 -mlc=0' \
 	cl="curl -F 'clbin=<-' https://clbin.com" \
-	gp='git add . && git commit -m "$(date +%Y%m%d-%H%M%S)" && git push -u origin master' \
+	gp='git add . && git commit -m "$(date +%Y-%m-%d_%H:%M:%S)" && git push' \
 	wavtoflac='flac --best --delete-input-file -e -p -V -f --keep-foreign-metadata *.wav' \
 	texview='latexmk -pdf -pvc *.tex' \
 	sharedir='python -m http.server 25566'

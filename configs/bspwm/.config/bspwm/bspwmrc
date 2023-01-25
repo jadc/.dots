@@ -3,6 +3,7 @@ sxhkd &
 
 # java fix
 export _JAVA_AWT_WM_NONREPARENTING=1
+export AWT_TOOLKIT=MToolkit
 /usr/bin/wmname LG3D
 
 # normal
@@ -26,6 +27,7 @@ bspc config pointer_motion_interval 7
 # Program Rules
 bspc rule -a Chromium desktop='^1'
 bspc rule -a discord desktop='^9' state=fullscreen focus=off
+bspc rule -a webcord desktop='^9' state=fullscreen focus=off
 
 ## Floating
 bspc rule -a obs state=floating

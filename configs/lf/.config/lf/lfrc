@@ -26,7 +26,7 @@ cmd open ${{
 	image/svg+xml) display -- $f ;;
 	image/*) setsid -f sxiv $f -a >/dev/null 2>&1 ;;
 	audio/*) mpv --audio-display=no $f ;;
-	video/*) setsid -f mpv $f -quiet >/dev/null 2>&1 ;;
+	video/*|application/octet-stream) setsid -f mpv $f -quiet >/dev/null 2>&1 ;;
 	application/pdf|application/vnd*|application/epub*) setsid -f zaread $fx >/dev/null 2>&1 ;;
 	application/pgp-encrypted) $EDITOR $fx ;;
         *) for f in $fx; do setsid -f $OPENER $f >/dev/null 2>&1; done;;

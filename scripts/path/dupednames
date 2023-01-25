@@ -1,0 +1,2 @@
+#!/bin/sh
+find "$1" -name '*' -print | awk -F/ '{ if (a[$NF]) print $0, a[$NF]; else a[$NF]=$0 }'
