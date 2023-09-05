@@ -57,6 +57,6 @@ fetch
 # Sources
 [ -f ~/.aliasrc ] && source ~/.aliasrc
 
-## Synax highlighting 
+## Syntax highlighting 
 ## (https://archlinux.org/packages/community/any/zsh-syntax-highlighting)
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
