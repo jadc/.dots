@@ -1,6 +1,0 @@
-#!/bin/sh
-if [ ! -f "$HOME/.nox" ]; then
-    touch $HOME/.nox && echo 'Disabled X on next boot'
-else
-    rm -f $HOME/.nox && echo 'Enabled X on next boot'
-fi

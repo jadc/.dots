@@ -28,9 +28,9 @@ secondary = #e60053
 alert = #bd2c40
 
 [bar/2nd]
-monitor = ${env:MONITOR:HDMI-0}
-width = 72
-height = 32
+monitor = ${env:MONITOR:DP-0}
+width = 1080
+height = 48
 ;offset-x = 1%
 ;offset-y = 1%
 radius = 0.0
@@ -46,21 +46,21 @@ line-color = #f00
 border-size = 0
 border-color = #00000000
 
-padding-left = 0
-padding-right = 0
+padding-left = 1
+padding-right = 1
 
-module-margin-left = 0
-module-margin-right = 0
+module-margin-left = 1
+module-margin-right = 1
 
 ;font-0 = fixed:pixelsize=10;1
-font-0 = Google Sans:style=Medium,Regular:pixelsize=16;4
+font-0 = Segoe UI:style=Medium,Regular:pixelsize=24;4
 ;font-0 = Fira Code:style=Retina,Regular
 ;font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 ;font-2 = siji:pixelsize=10;1
 
-modules-left = 
-modules-center = time
-modules-right = 
+modules-left = time
+modules-center =
+modules-right = cpu memory
 
 tray-position = 
 tray-padding = 0
@@ -69,7 +69,7 @@ tray-padding = 0
 ;wm-restack = bspwm
 ;wm-restack = i3
 
-override-redirect = true
+;override-redirect = true
 
 ;scroll-up = bspwm-desknext
 ;scroll-down = bspwm-deskprev

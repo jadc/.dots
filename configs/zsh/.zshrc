@@ -31,20 +31,21 @@ autoload -Uz compinit
 compinit
 
 # LF stay in directory
-lfcd () {
-    tmp="$(mktemp)"
-    lf -last-dir-path="$tmp" "$@"
-    if [ -f "$tmp" ]; then
-        dir="$(cat "$tmp")"
-        rm -f "$tmp" >/dev/null
-        [ -d "$dir" ] && [ "$dir" != "$(pwd)" ] && cd "$dir"
-    fi
-}
+#lfcd () {
+#    tmp="$(mktemp)"
+#    lf -last-dir-path="$tmp" "$@"
+#    if [ -f "$tmp" ]; then
+#        dir="$(cat "$tmp")"
+#        rm -f "$tmp" >/dev/null
+#        [ -d "$dir" ] && [ "$dir" != "$(pwd)" ] && cd "$dir"
+#    fi
+#}
 
 # Binds
-bindkey -s '^r' ' lfcd\n'
-bindkey -s '^f' ' cd "$(dirname "$(fzf)")"\n'
+#bindkey -s '^r' ' lfcd\n'
+#bindkey -s '^f' ' cd "$(dirname "$(fzf)")"\n'
 bindkey -s '^t' ' $TERMINAL & disown\n'
+setxkbmap -option caps:escape
 
 # Aesthetics
 ## Requires lscolors-git

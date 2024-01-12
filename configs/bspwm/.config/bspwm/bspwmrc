@@ -7,12 +7,6 @@ export AWT_TOOLKIT=MToolkit
 /usr/bin/wmname LG3D
 
 # normal
-bspc monitor DP-4 -d I II III IV V VI
-bspc monitor HDMI-0 -d VII VIII IX
-# intel igpu on host
-#bspc monitor HDMI3 -d I II III IV V VI
-#bspc monitor HDMI1 -d VII VIII IX
-
 bspc config border_width         0
 bspc config window_gap           0
 
@@ -22,15 +16,8 @@ bspc config single_monocle       true
 bspc config gapless_monocle      true
 
 # 60Hz = 17, 144Hz = 7
-bspc config pointer_motion_interval 7
+bspc config pointer_motion_interval 4
 
-# Program Rules
-bspc rule -a Chromium desktop='^1'
-bspc rule -a discord desktop='^9' state=fullscreen focus=off
-bspc rule -a webcord desktop='^9' state=fullscreen focus=off
-
-## Floating
-bspc rule -a obs state=floating
-bspc rule -a Steam state=floating
-bspc rule -a parallel-launcher state=floating
-bspc rule -a zoom state=floating
+# External
+~/.config/bspwm/monitor
+~/.config/bspwm/rules

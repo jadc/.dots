@@ -1,2 +1,0 @@
-#!/bin/sh
-/usr/bin/when-changed "$1" "clear && gcc -Wall -std=c99 $1"

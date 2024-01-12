@@ -1,9 +1,0 @@
-[Unit]
-Description=Starts ntp after boot
-
-[Timer]
-OnBootSec=60s
-Unit=ntpdate.service
-
-[Install]
-WantedBy=timers.target
