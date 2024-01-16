@@ -1,0 +1,4 @@
+#!/bin/sh
+xrandr --dpi 120 \
+    --output HDMI-0 --mode 2560x1440 --scale 1x1 --pos 0x0 \
+    --output DP-0   --mode 1920x1080 --scale 1x1 --pos 2560x-324 --rotate right

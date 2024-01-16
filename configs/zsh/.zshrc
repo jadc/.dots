@@ -23,6 +23,7 @@ unsetopt beep
 unsetopt nomatch
 bindkey -v       # Vim mode
 stty stop undef  # Disable ctrl+s freezing term
+bindkey '^R' history-incremental-search-backward  # Restore reverse search
 
 ## Autocomplete
 zstyle ':completion:*' completer _complete

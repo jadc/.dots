@@ -4,9 +4,7 @@
 xsetroot -cursor_name left_ptr &
 
 # setup scripts
-xrandr --dpi 120 \
-    --output HDMI-0 --mode 2560x1440 --pos 0x0 \
-    --output DP-0 --mode 1920x1080 --pos 2560x-324 --rotate right
+$SCRIPTS/path/monitor &
 #$SCRIPTS/setup/autostart.sh &
 
 # java fix
@@ -24,8 +22,6 @@ xrdb -merge ~/.Xresources
 
 # Polybar
 polybar 2>&1 | tee -a /tmp/polybar.log & disown
-
-redshift &
 
 # wm
 exec $WM

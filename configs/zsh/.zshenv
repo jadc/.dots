@@ -8,11 +8,9 @@ export WM='bspwm'
 export EDITOR='nvim'
 export VISUAL=$EDITOR
 export TERMINAL='kitty'
-export BROWSER='chromium'
+export EXPLORER='pcmanfm'
+export BROWSER='thorium-browser'
 export READER='zathura'
-
-# Misc
-export XDG_CONFIG_HOME="$HOME/.config"
 
 # Config
 export NO_AT_BRIDGE=1

@@ -4,7 +4,7 @@
 alias \
 	v='$EDITOR' \
 	p='paru' \
-	pp='paru -Syu --noconfirm' \
+	pp='paru -Syu --noconfirm'
 	py='python3' \
 	yt='yt-dlp' \
 	clear='tput reset' \
@@ -27,7 +27,8 @@ alias \
 	ssh='TERM=xterm-color ssh' \
 	ag="ag --pager='less -XFR'" \
 	vidir='vidir -v' \
-	ytsub='yt-dlp --sub-lang en --write-auto-sub --skip-download'
+	ytsub='yt-dlp --sub-lang en --write-auto-sub --skip-download' \
+	vtt='whisper --output_format vtt --task transcribe --language en --model large-v2'
 
 ## colors
 alias \

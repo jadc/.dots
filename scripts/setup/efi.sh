@@ -7,7 +7,7 @@ PERFORMANCE='nowatchdog nomce mitigations=off random.trust_cpu=on fsck.mode=skip
 NVIDIA='nvidia-drm.modeset=1'
 INTEL='i915.enable_fbc=1 i915.fastboot=1 i915.modeset=1'
 #KVM='intel_iommu=on vfio-pci.ids=10de:1e84,10de:10f8,10de:1ad8,10de:1ad9'
-FLAG="$QUIET $PERFORMANCE $NVIDIA $INTEL"
+FLAG="$PERFORMANCE $NVIDIA $INTEL"
 
 sudo efibootmgr \
     --disk /dev/nvme0n1 --part 1 \
