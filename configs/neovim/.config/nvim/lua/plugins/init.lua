@@ -18,6 +18,6 @@ setup({
 
 -- Enable
 require("lualine").setup()
-require("config.nvim-treesitter")
-require("config.tree")
-require("config.theme")
+require("plugins.config.syntax")
+require("plugins.config.tree")
+require("plugins.config.theme")
