@@ -23,5 +23,7 @@ xrdb -merge ~/.Xresources
 # Polybar
 polybar 2>&1 | tee -a /tmp/polybar.log & disown
 
+setxkbmap -option caps:swapescape
+
 # wm
 exec $WM

@@ -3,3 +3,4 @@ text/plain=nvim.desktop
 inode/directory=pcmanfm.desktop
 x-scheme-handler/unityhub=unityhub.desktop
 x-scheme-handler/rhdc=ca.parallel_launcher.ParallelLauncher.desktop
+x-scheme-handler/mailto=thorium-browser.desktop
