@@ -473,6 +473,21 @@
         },
         "XSOverlay": {
             "enabled": false
+        },
+        "ChatInputButtonAPI": {
+            "enabled": true
+        },
+        "BetterGifPicker": {
+            "enabled": false
+        },
+        "FixCodeblockGap": {
+            "enabled": false
+        },
+        "FixYoutubeEmbeds": {
+            "enabled": false
+        },
+        "ReviewDB": {
+            "enabled": false
         }
     },
     "notifications": {
@@ -485,6 +500,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1705288429916
+        "settingsSyncVersion": 1707274984811
     }
 }
