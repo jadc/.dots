@@ -3,8 +3,20 @@ function setup(plugins)
         return
     end
 
-    vim.opt.rtp:prepend(vim.fn.stdpath("data") .. "/lazy/lazy.nvim")
-    require("lazy").setup(plugins, {})
+    local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
+    if not vim.loop.fs_stat(lazypath) then
+    vim.fn.system({
+        "git",
+        "clone",
+        "--filter=blob:none",
+        "https://github.com/folke/lazy.nvim.git",
+        "--branch=stable", -- latest stable release
+        lazypath,
+    })
+    end
+
+    vim.opt.rtp:prepend(lazypath)
+    require('lazy').setup(plugins, {})
     vim.g.plugins_ready = true
 end
 
@@ -13,13 +25,13 @@ setup({
     {"nvim-lualine/lualine.nvim"},
     {"nvim-treesitter/nvim-treesitter"},
     {"nvim-tree/nvim-tree.lua"},
-    {"romgrk/barbar.nvim",
+    --[[{"romgrk/barbar.nvim",
         dependencies = {
             "lewis6991/gitsigns.nvim",
             "nvim-tree/nvim-web-devicons",
         },
         init = function() vim.g.barbar_auto_setup = false end
-    },
+    },--]]
     {"airblade/vim-gitgutter"},
 })
 
