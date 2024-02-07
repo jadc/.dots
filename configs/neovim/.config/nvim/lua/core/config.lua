@@ -1,13 +1,3 @@
-function misc()
-    vim.opt.number = true              -- Line numbers
-    vim.opt.relativenumber = true      -- Relative line numbers
-    vim.opt.ignorecase = true          -- Case insensitive search
-    vim.opt.smartcase = true           -- Sensitive if search has caps
-    vim.opt.hlsearch = false           -- Removes search highlight
-    vim.opt.clipboard = "unnamedplus"  -- Use system clipboard
-    vim.opt.termguicolors = true       -- Hex colors
-end
-
 function indent()
     vim.opt.tabstop = 4            -- Tab size
     vim.opt.softtabstop = 4        -- Cursed tab size
@@ -21,5 +11,23 @@ function indent()
     vim.opt.foldmethod = "indent"  -- Fold on indents
 end
 
+function backups(bool)
+    vim.opt.backup = bool
+    vim.opt.writebackup = bool
+    vim.opt.undofile = bool
+    vim.opt.swapfile = bool
+end
+
+function misc()
+    vim.opt.number = true              -- Line numbers
+    vim.opt.relativenumber = true      -- Relative line numbers
+    vim.opt.ignorecase = true          -- Case insensitive search
+    vim.opt.smartcase = true           -- Sensitive if search has caps
+    vim.opt.hlsearch = false           -- Removes search highlight
+    vim.opt.clipboard = "unnamedplus"  -- Use system clipboard
+    vim.opt.termguicolors = true       -- Hex colors
+end
+
 indent()
+backups(false)
 misc()

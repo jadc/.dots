@@ -4,7 +4,7 @@ function setup(plugins)
     end
 
     vim.opt.rtp:prepend(vim.fn.stdpath("data") .. "/lazy/lazy.nvim")
-    require('lazy').setup(plugins, {})
+    require("lazy").setup(plugins, {})
     vim.g.plugins_ready = true
 end
 
@@ -13,7 +13,14 @@ setup({
     {"nvim-lualine/lualine.nvim"},
     {"nvim-treesitter/nvim-treesitter"},
     {"nvim-tree/nvim-tree.lua"},
-    {"nvim-telescope/telescope.nvim"}
+    {"romgrk/barbar.nvim",
+        dependencies = {
+            "lewis6991/gitsigns.nvim",
+            "nvim-tree/nvim-web-devicons",
+        },
+        init = function() vim.g.barbar_auto_setup = false end
+    },
+    {"airblade/vim-gitgutter"},
 })
 
 -- Enable
