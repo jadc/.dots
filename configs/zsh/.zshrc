@@ -31,6 +31,9 @@ zstyle ':completion:*' matcher-list '' 'm:{[:lower:][:upper:]}={[:upper:][:lower
 autoload -Uz compinit
 compinit
 
+## Zoxide
+eval "$(zoxide init --cmd cd zsh)"
+
 # LF stay in directory
 #lfcd () {
 #    tmp="$(mktemp)"
