@@ -18,4 +18,4 @@ require("onedarkpro").setup({
         none = "NONE",
     }
 })
-vim.cmd("colorscheme onedark")
+vim.cmd.colorscheme("onedark")

@@ -26,6 +26,7 @@ function misc()
     vim.opt.hlsearch = false           -- Removes search highlight
     vim.opt.clipboard = "unnamedplus"  -- Use system clipboard
     vim.opt.termguicolors = true       -- Hex colors
+    vim.cmd.aunmenu([[PopUp.How-to\ disable\ mouse]])  -- Remove weird
 end
 
 indent()

@@ -21,9 +21,18 @@ function setup(plugins)
 end
 
 setup({
-    {"olimorris/onedarkpro.nvim", priority = 1000},
+    {"olimorris/onedarkpro.nvim", 
+        priority = 1000
+    },
     {"nvim-lualine/lualine.nvim"},
-    {"nvim-treesitter/nvim-treesitter"},
+    {"nvim-treesitter/nvim-treesitter", 
+        build = ":TSUpdate",
+        config = require("plugins.config.syntax")
+    },
+    {"nvim-telescope/telescope.nvim",
+        branch = "0.1.x",
+        dependencies = { "nvim-lua/plenary.nvim" }
+    },
     {"nvim-tree/nvim-tree.lua"},
     --[[{"romgrk/barbar.nvim",
         dependencies = {
@@ -33,10 +42,25 @@ setup({
         init = function() vim.g.barbar_auto_setup = false end
     },--]]
     {"airblade/vim-gitgutter"},
+
+    -- LSP
+    {"VonHeikemen/lsp-zero.nvim"},
+    {"neovim/nvim-lspconfig"},
+    {"williamboman/mason.nvim"},
+    {"williamboman/mason-lspconfig.nvim"},
+    {"hrsh7th/nvim-cmp"},
+    {"hrsh7th/cmp-nvim-lsp"},
+    {"hrsh7th/cmp-buffer"},
+    {"hrsh7th/cmp-path"},
+    {"saadparwaiz1/cmp_luasnip"},
+    {"hrsh7th/cmp-nvim-lua"},
+    {"L3MON4D3/LuaSnip"},
+    {"rafamadriz/friendly-snippets"},
 })
 
 -- Enable
 require("lualine").setup()
-require("plugins.config.syntax")
+require("plugins.config.telescope")
 require("plugins.config.tree")
 require("plugins.config.theme")
+require("plugins.config.lsp")

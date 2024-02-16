@@ -1,3 +1,5 @@
+vim.g.mapleader = " "
+
 local mappings = {
     -- Disable arrow keys
     ["<Up>"] = "<Nop>",
@@ -10,9 +12,6 @@ local mappings = {
     ["k"] = "gk",
     ["$"] = "g$",
     ["0"] = "g0",
-
-    -- Fold
-    ["<Space>"] = "za"
 }
 
 for from, to in pairs(mappings) do
