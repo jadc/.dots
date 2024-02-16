@@ -33,15 +33,14 @@ setup({
         branch = "0.1.x",
         dependencies = { "nvim-lua/plenary.nvim" }
     },
-    {"nvim-tree/nvim-tree.lua"},
-    --[[{"romgrk/barbar.nvim",
+    {"nvim-tree/nvim-web-devicons"},
+    {"lewis6991/gitsigns.nvim"},
+    {"romgrk/barbar.nvim",
         dependencies = {
             "lewis6991/gitsigns.nvim",
             "nvim-tree/nvim-web-devicons",
-        },
-        init = function() vim.g.barbar_auto_setup = false end
-    },--]]
-    {"airblade/vim-gitgutter"},
+        }
+    },
 
     -- LSP
     {"VonHeikemen/lsp-zero.nvim"},
@@ -60,7 +59,7 @@ setup({
 
 -- Enable
 require("lualine").setup()
+require("gitsigns").setup()
 require("plugins.config.telescope")
-require("plugins.config.tree")
 require("plugins.config.theme")
 require("plugins.config.lsp")
