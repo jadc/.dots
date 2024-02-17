@@ -27,15 +27,13 @@ local cmp_select = { behavior = cmp.SelectBehavior.Select }
 
 require("luasnip.loaders.from_vscode").lazy_load()
 
+vim.api.nvim_set_hl(0, "menuSel", { bg = "#333333", fg = "White", bold = true })
 cmp.setup({
     window = {
-        completion = {
+        completion = cmp.config.window.bordered({
             border = "rounded",
-            winhighlight = "Normal:CmpNormal",
-        },
-        documentation = {
-            winhighlight = "Normal:CmpDocNormal",
-        }
+            winhighlight = "CursorLine:menuSel",
+        }),
     },
     sources = {
         { name = "path" },
@@ -53,7 +51,7 @@ cmp.setup({
     mapping = cmp.mapping.preset.insert({
         ["<C-k>"] = cmp.mapping.select_prev_item(cmp_select),
         ["<C-j>"] = cmp.mapping.select_next_item(cmp_select),
-        ["<C-Return>"] = cmp.mapping.confirm({ select = true }),
+        ["<C-CR>"] = cmp.mapping.confirm({ select = true }),
         ["<C-Space>"] = cmp.mapping.complete(),
     }),
 })
