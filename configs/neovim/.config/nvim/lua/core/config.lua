@@ -20,7 +20,7 @@ end
 
 function misc()
     vim.opt.number = true              -- Line numbers
-    vim.opt.relativenumber = true      -- Relative line numbers
+    --vim.opt.relativenumber = true      -- Relative line numbers
     vim.opt.ignorecase = true          -- Case insensitive search
     vim.opt.smartcase = true           -- Sensitive if search has caps
     vim.opt.hlsearch = false           -- Removes search highlight
