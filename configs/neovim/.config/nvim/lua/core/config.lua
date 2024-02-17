@@ -24,6 +24,7 @@ function misc()
     vim.opt.ignorecase = true          -- Case insensitive search
     vim.opt.smartcase = true           -- Sensitive if search has caps
     vim.opt.hlsearch = false           -- Removes search highlight
+    vim.opt.cmdheight = 0              -- No command line height
     vim.opt.clipboard = "unnamedplus"  -- Use system clipboard
     vim.opt.termguicolors = true       -- Hex colors
     vim.cmd.aunmenu([[PopUp.How-to\ disable\ mouse]])  -- Remove weird
