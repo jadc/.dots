@@ -42,7 +42,7 @@ setup({
         }
     },
 
-    -- LSP
+    -- Autocompletion and LSP
     {"VonHeikemen/lsp-zero.nvim"},
     {"neovim/nvim-lspconfig"},
     {"williamboman/mason.nvim"},
@@ -55,6 +55,7 @@ setup({
     {"hrsh7th/cmp-nvim-lua"},
     {"L3MON4D3/LuaSnip"},
     {"rafamadriz/friendly-snippets"},
+    {"github/copilot.vim"}
 })
 
 -- Enable
