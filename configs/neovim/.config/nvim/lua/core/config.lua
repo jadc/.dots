@@ -19,8 +19,9 @@ function backups(bool)
 end
 
 function misc()
+    vim.g.loaded_netrw = 1             -- Disable netrw
+    vim.g.loaded_netrwPlugin = 1       -- Disable netrw
     vim.opt.number = true              -- Line numbers
-    --vim.opt.relativenumber = true      -- Relative line numbers
     vim.opt.ignorecase = true          -- Case insensitive search
     vim.opt.smartcase = true           -- Sensitive if search has caps
     vim.opt.hlsearch = false           -- Removes search highlight

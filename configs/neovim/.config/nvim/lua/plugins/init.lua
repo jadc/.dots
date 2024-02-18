@@ -33,6 +33,7 @@ setup({
         branch = "0.1.x",
         dependencies = { "nvim-lua/plenary.nvim" }
     },
+    {"nvim-tree/nvim-tree.lua"},
     {"nvim-tree/nvim-web-devicons"},
     {"lewis6991/gitsigns.nvim"},
     {"romgrk/barbar.nvim",
@@ -61,6 +62,7 @@ setup({
 -- Enable
 require("lualine").setup()
 require("gitsigns").setup()
+require("nvim-tree").setup()
 require("plugins.config.telescope")
 require("plugins.config.theme")
 require("plugins.config.lsp")

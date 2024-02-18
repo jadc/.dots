@@ -13,6 +13,9 @@ local mappings = {
     ["$"] = "g$",
     ["0"] = "g0",
 
+    -- Tree
+    ["<c-n>"] = ":NvimTreeFindFileToggle<CR>",
+
     -- Buffers
     ["<c-h>"] = ":BufferPrevious<CR>",
     ["<c-l>"] = ":BufferNext<CR>",
