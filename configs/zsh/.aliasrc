@@ -10,7 +10,7 @@ alias \
 
 # flags
 alias \
-    sudo='sudo -E'
+    sudo='sudo -E' \
 	du='du -h' \
 	cp='cp -ivp' \
 	mv='mv -iv' \
