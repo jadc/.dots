@@ -18,9 +18,9 @@ super + Escape
 # bspwm hotkeys
 #
 
-# quit/restart bspwm
-super + alt + {q,r}
-	bspc {quit,wm -r}
+# fix monitor
+super + alt + q
+    monitor
 
 # close and kill
 super + {_,shift + }w

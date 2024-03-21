@@ -8,6 +8,8 @@ application/pdf=org.pwmt.zathura.desktop
 image/png=nsxiv.desktop
 image/jpeg=nsxiv.desktop
 x-scheme-handler/postman=Postman.desktop
+x-scheme-handler/discord-752700005210390568=discord-752700005210390568.desktop
+x-scheme-handler/figma=figma-linux.desktop
 
 [Added Associations]
 image/png=nsxiv.desktop;
